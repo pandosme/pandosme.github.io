@@ -3,7 +3,7 @@ layout: post
 title:  "Timelapse video for Axis Cameras"
 categories: acap
 ---
-Using a netowrk camera for creating timelpase videos is easy.  The most common use case is recording a construction site progress.  Other common use cases are monitor seasonal chhanges in your back yard or as a quick forensic search video when images are captured on motion detection rather them time.
+Using a network camera for creating timelpase videos is easy.  The most common use case is recording a construction site progress.  Other common use cases are monitor seasonal chhanges in your back yard or as a quick forensic search video when images are captured on motion detection rather them time.
 
 ## Prerequisite
 - Axis camera with a mounted SD Card
@@ -13,7 +13,7 @@ Using a netowrk camera for creating timelpase videos is easy.  The most common u
 *Supported platforms: MIPS, ARMv7hf, AARCH64*
 
 ## Creating Timelapse
-![Settings](https://api.aintegration.team/image/MRLYGXYJNW)
+![Settings](/assets/timelapse.jpg)
 
 You can have a number of simultaneous timelpase recordings at the same time.  Note that at least three images needs to be in a recording  before the recording is show in the recording list.
 
