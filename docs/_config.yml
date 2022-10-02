@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Pandos Integration
+title: Integration recipes and components
 email: fred.juhlin@gmail.com
 description: Integration components and recipes
 baseurl: ""
