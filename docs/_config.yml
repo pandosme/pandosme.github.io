@@ -30,7 +30,7 @@ github_username:  pandosme
 # Build settings
 #theme: minima
 #remote_theme: just-the-docs/just-the-docs
-remote_theme: pages-themes/leap-day@v0.2.0
+remote_theme: pages-themes/leap-day
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
