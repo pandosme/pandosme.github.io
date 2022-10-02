@@ -13,5 +13,5 @@ Using a network camera for creating timelpase videos is easy.  The most common u
 *Supported platforms: MIPS, ARMv7hf, AARCH64*
 
 ## Creating Timelapse
-![Settings]({{ site.url }}/assets/timelapse.jpg)
+
 
