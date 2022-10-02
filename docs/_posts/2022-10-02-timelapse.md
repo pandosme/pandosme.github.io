@@ -13,7 +13,7 @@ Using a network camera for creating timelpase videos is easy.  The most common u
 *Supported platforms: MIPS, ARMv7hf, AARCH64*
 
 ## Creating Timelapse
-![Settings](../assets/timelapse.jpg)
+![Settings]({{ site.baseurl }}/assets/timelapse.jpg)
 
 You can have a number of simultaneous timelpase recordings at the same time.  Note that at least three images needs to be in a recording  before the recording is show in the recording list.
 
