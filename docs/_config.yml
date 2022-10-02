@@ -21,7 +21,7 @@
 title: Pandos Integration
 email: fred.juhlin@gmail.com
 description: Integration components and recipes
-baseurl: /pandosme
+baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  pandosme
