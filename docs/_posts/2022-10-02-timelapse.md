@@ -9,7 +9,7 @@ Using a network camera for creating timelpase videos is easy.  The most common u
 - Axis camera with a mounted SD Card
 - Timelapse Me ACAP
 
-### [Download (ZIP)](https://api.aintegration.team/acap/timelapseme?source=github)
+### [Download Timelapse ME ACAP](https://api.aintegration.team/acap/timelapseme?source=github)
 *Supported platforms: MIPS, ARMv7hf, AARCH64*
 
 ## Creating Timelapse
