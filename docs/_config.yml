@@ -31,8 +31,8 @@ github_username:  pandosme
 #remote_theme: just-the-docs/just-the-docs
 remote_theme: ngzhio/jekyll-theme-hamilton
 plugins:
-  - jekyll-feed
   - jekyll-remote-theme
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
