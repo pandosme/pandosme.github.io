@@ -28,7 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  pandosme
 
 # Build settings
-theme: tactile
+theme: minima
 #remote_theme: pages-themes/tactile@v0.2.0
 plugins:
   - jekyll-feed
