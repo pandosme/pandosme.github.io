@@ -2,22 +2,19 @@
 	<header class="post-header home">
 		<div class="post-title">Category - <span id='category-name'></span></div>
 	</header>
-
 	<div class="post-content">
-		{%- if site.posts.size > 0 -%}
+		{% for category in site.categories %}
 		<ul class="post-list">
-			{%- for post in site.posts -%}
-			<li class="post-list-item post-category-{{post.categories}}">
-				<!-- {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%} -->
-				{%- assign date_format = "%Y/%m/%d" -%}
+			{% capture category_name %}{{ category | first }}{% endcapture %}
+			{% for post in site.categories[category_name] %}
+			<li class="post-list-item post-category-{{category_name}}">
 				<a class="post-link" href="{{ post.url | relative_url }}">
 					{{ post.title | escape }}
 				</a>
-				{%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
 			</li>
-		  	{%- endfor -%}
+			{% endfor %}
 		</ul>
-	  	{%- endif -%}
+		{% endfor %}		
 	</div>
 </article>
 
