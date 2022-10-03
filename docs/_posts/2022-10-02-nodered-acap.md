@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Running Node-RED on an Axis Camera"
+title:  "Running Node-RED on an Axis device"
 date: 2020-01-02 00:00:00 +0200
 categories: [ACAP, Node-RED]
 ---
