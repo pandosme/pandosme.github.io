@@ -8,9 +8,9 @@ category: ACAP
 [How tailscale works](https://tailscale.com/blog/how-tailscale-works/)
 
 ## Prerequisite
-- [Tailscale Account](https://tailscale.com/)
-- Axis device 
-_Device based on arm7hf or AARCH64_
+- [Tailscale account](https://tailscale.com/)
+- Axis device  
+(Based on arm7hf or AARCH64)
 - [Tailscale Installer ACAP](https://www.dropbox.com/s/rcg10via69gye1l/Tailscale_Installer_ACAP.zip?dl=1)
 
 ## Installing
