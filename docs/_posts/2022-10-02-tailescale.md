@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Add Axis device to Tailscale VPN"
+title:  "Installing Tailscale VPN client on Axis device"
 date: 2020-01-02 00:00:00 +0200
 categories: [ACAP]
 ---
