@@ -15,7 +15,8 @@ Examples of use cases:
 # Prerequisite
 1. Axis camera  
 2. [ObjectPath](https://api.aintegration.team/acap/objectpath?source=pages) ACAP
-3. A system with an MQTT client that consumes the data for some use case
+3. Access to MQTT broker
+4. A system with an MQTT client that consumes the data for some use case
 
 # Validation
 The configuration page displays the 15 most recent detections visually augement over video and in a table.
