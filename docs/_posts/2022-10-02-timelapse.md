@@ -2,13 +2,14 @@
 layout: post
 title:  "Timelapse video for Axis Cameras"
 date: 2020-01-02 00:00:00 +0200
-categories: [ACAP]
+categories: [ACAP, Recipe, Component]
 ---
 Using a network camera for creating timelpase videos is easy.  The most common use case is recording a construction site progress.  Other common use cases are monitor seasonal chhanges in your back yard or as a quick forensic search video when images are captured on motion detection rather them time.
 
 ## Prerequisite
-- Axis camera with a mounted SD Card
-- [Timelapse ME](https://api.aintegration.team/acap/timelapseme?source=pages) ACAP
+1. Axis camera with a mounted SD Card
+2. [Timelapse ME](https://api.aintegration.team/acap/timelapseme?source=pages) ACAP
+3. A video player (e.g. VideoLAN or similar)
 
 ## Creating Timelapse
 ![Settings]({{ site.url }}/assets/timelapse.jpg)
