@@ -42,7 +42,8 @@ _The instructions assumes you change the container name to objectpath-analyzer_
 - environment:TZ = Europe/Stockholm
 - nodered:container_name: objectpath-analyzer  
 
-Save and exit
+Save and exit 
+
 6. Fetch containers
 ```
 sudo docker-compose pull
@@ -60,6 +61,7 @@ sudo docker-compose down
 ```
 nano settings.js
 ```
+Change the following properties to your prefered settings:
 - httpAdminRoot: '/admin',   (Default flows view url http://address:8600/admin)
 - ui: { path: "/" },         (Default dashboard url http://address:8600/)
 - adminAuth:                 (Default disabled.  It is recommended that you enable admin credentials.  See [Securing Node-RED](https://nodered.org/docs/user-guide/runtime/securing-node-red#editor--admin-api-security))
