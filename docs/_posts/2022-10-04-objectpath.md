@@ -25,20 +25,20 @@ The configuration page displays the 15 most recent detections visually augement 
 ## Detection filter
 Detected objects must comply to all the filters to be published.
 ![image]({{ site.url }}/assets/objectpath-filter.jpg)
-\
+/
 **View and Set area object must pass**  
 Defines the area that the object must pass while moving through the scene.  The point on the object (center-of-gravity) that must pass depends on the Camera Placement setting.  See Camera placement.   
 For Ceiling is is the center of the object.  Click the button and use mouse to define the area
-\
+/
 **Minimum distance**
 Set how long the total movement distance must be to be published in percent of the view.
-\
+/
 **Minimum distance**
 Set how long the object must be in scene.
-\
+/
 **Object type**
 Use with caution as the quility of object classification depends on the scene.  It is only recommended to apply this filter after a day of capturing has been analyzed.
-\
+/
 **Camera placement**
 Defince the center-of-gravity of the object that is used when checing if the object is passing the area-of-interest while moving in the scene.
 Wall mounted cameras that result in a view with perspective the optimal center-of-gravity is bottom-center (the feet on a person)
