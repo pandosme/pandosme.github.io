@@ -36,11 +36,12 @@ git checkout mongodb
 ```
 nano docker-compose.yaml
 ```
-Change default values if needed
+Change default values if needed  
 _The instructions assumes you change the container name to objectpath-analyzer_
 - ports: - '8600:1880'
 - environment:TZ = Europe/Stockholm
-- nodered:container_name: objectpath-analyzer
+- nodered:container_name: objectpath-analyzer  
+
 Save and exit
 6. Fetch containers
 ```
