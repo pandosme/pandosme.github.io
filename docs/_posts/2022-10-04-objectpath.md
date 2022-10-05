@@ -8,8 +8,10 @@ ObjectPath is an MQTT client that installs in Axis camera to capture an object p
 Examples of use cases:
 * Heatpapping
 * Counting
-* Forensic search
+* Forensic search 
 
+
+_Exanple of a fisheye camera mounted in the ceiling_
 ![image]({{ site.url }}/assets/objectpath.jpg)
 
 # Prerequisite

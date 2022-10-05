@@ -51,7 +51,7 @@ Moving vehicles or persons may block a parked vehicle for a short time and a tra
 # Integration
 
 ## MQTT
-Configure the camera MQTT client or install [SIMQTT]({{ site.url }}/acap/mqtt/2021/10/18/simqtt.html). 
+Configure the camera MQTT client or install [SIMQTT]({{ site.url }}/acap/mqtt/component/2021/10/18/simqtt.html).
 
 ### SIMQTT
 Configure simqtt

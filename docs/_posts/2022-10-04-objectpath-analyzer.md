@@ -4,7 +4,7 @@ title:  "Object Path Analyzer"
 date: 2022-10-04 00:00:00 +0200
 categories: [Node-RED, Recipe]
 ---
-A demonstration (proof-of-concept) tool based on Node-RED dashboard that can be used to analyze object path captured by [ObjectPath ACAP]({{ site.url}/acap/mqtt/component/2022/10/03/objectpath.html }}).
+A demonstration (proof-of-concept) tool based on Node-RED dashboard that can be used to analyze object path captured by [ObjectPath ACAP]({{ site.url }}/acap/mqtt/component/2022/10/03/objectpath.html).
 The deployment uses docker container that includes Node-RED and MongoDB.  Once installed, the Node-RED application is then fetched from GitHub as a project.
 
 ![image]({{ site.url }}/assets/objectpath-analyzer.jpg)
@@ -12,7 +12,7 @@ The deployment uses docker container that includes Node-RED and MongoDB.  Once i
 # Prerequisite
 1. Linux computer with git, docker and docker-composed installed
 2. One or more Axis cameras
-3. [Object Path Capture ]({{ site.url}/acap/mqtt/component/2022/10/03/objectpath.html }}) ACAP installed and configured in the cameras(s)
+3. [Object Path Capture ]({{ site.url }}/acap/mqtt/component/2022/10/03/objectpath.html) ACAP installed and configured in the cameras(s)
 4. An MQTT Broker
 
 # Installing and configuring container
@@ -36,12 +36,14 @@ git checkout mongodb
 ```
 nano docker-compose.yaml
 ```
-Change default values if needed
+Change default values if needed  
 _The instructions assumes you change the container name to objectpath-analyzer_
 - ports: - '8600:1880'
 - environment:TZ = Europe/Stockholm
-- nodered:container_name: objectpath-analyzer
-Save and exit
+- nodered:container_name: objectpath-analyzer  
+
+Save and exit 
+
 6. Fetch containers
 ```
 sudo docker-compose pull
@@ -59,6 +61,7 @@ sudo docker-compose down
 ```
 nano settings.js
 ```
+Change the following properties to your prefered settings:
 - httpAdminRoot: '/admin',   (Default flows view url http://address:8600/admin)
 - ui: { path: "/" },         (Default dashboard url http://address:8600/)
 - adminAuth:                 (Default disabled.  It is recommended that you enable admin credentials.  See [Securing Node-RED](https://nodered.org/docs/user-guide/runtime/securing-node-red#editor--admin-api-security))
