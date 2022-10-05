@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Installing Node-RED on Axis device"
+title:  "Running Node-RED on an Axis device"
 date: 2020-01-02 00:00:00 +0200
-categories: [ACAP, Node-RED]
+categories: [ACAP, Node-RED, Component]
 ---
 [Node-RED](https://nodered.org) is typically installed on a computer or server such as Linux, Windows, 
 Rasberry Pi or similar.  This is the common way to deploy Node-RED.  There maybe cases where Node-RED is needed for a 

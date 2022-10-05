@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Installing Tailscale VPN client on Axis device"
+title:  "Add Axis device to Tailscale VPN"
 date: 2020-01-02 00:00:00 +0200
-categories: [ACAP]
+categories: [ACAP, Component]
 ---
 [Tailscale](https://tailscale.com/) is a secure and easy VPN Solution.  A Tailscale client is required add a device to a Tailscale VPN.  
 [How tailscale works](https://tailscale.com/blog/how-tailscale-works/)
