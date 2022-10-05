@@ -17,7 +17,9 @@ _Exanple of a fisheye camera mounted in the ceiling_
 # Prerequisite
 1. Axis camera  
 2. [ObjectPath](https://api.aintegration.team/acap/objectpath?source=pages) ACAP
-3. A system with an MQTT client that consumes the data for some use case
+3. A system with an MQTT client that consumes and process the data for some use case  
+_Example [Node-RED](https://nodered.org) that injects data into a databse like [Object Path Analyzer tool]({{ site.url }}/node-red/recipe/2022/10/03/objectpath-analyzer.html)_
+4. Access to some MQTT Broker
 
 # Validation
 The configuration page displays the 15 most recent detections visually augement over video and in a table.

@@ -9,9 +9,13 @@ For a system that needs a simple way of detecting when a parking space becomes f
 ![Parking-image]({{ site.url }}/assets/parking_transition.jpeg)
 
 # Prerequisite
-- Axis camera 
-- [Parking Transition](https://files.juhlin.me/acap/Parking?source=pages) ACAP
-- MQTT client or ONVIF event stream client
+1. Axis camera 
+2. [Parking Transition](https://files.juhlin.me/acap/Parking?source=pages) ACAP
+
+## Optional services
+_If you need to get transition events over MQTT_   
+3. Configure MQTT client on device
+4. Access to some MQTT Broker
 
 # Parking transition detector
 

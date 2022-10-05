@@ -13,7 +13,7 @@ The deployment uses docker container that includes Node-RED and MongoDB.  Once i
 1. Linux computer with git, docker and docker-composed installed
 2. One or more Axis cameras
 3. [Object Path Capture ]({{ site.url }}/acap/mqtt/component/2022/10/03/objectpath.html) ACAP installed and configured in the cameras(s)
-4. An MQTT Broker
+4. Access to some MQTT Broker
 
 # Installing and configuring container
 1. Clone repository (typically from in the home directory)
