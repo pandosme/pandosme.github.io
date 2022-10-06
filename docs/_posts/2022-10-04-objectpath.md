@@ -11,7 +11,8 @@ Examples of use cases:
 * Forensic search 
 
 
-_Exanple of a fisheye camera mounted in the ceiling_
+_Example of a fisheye camera mounted in the ceiling_  
+
 ![image]({{ site.url }}/assets/objectpath.jpg)
 
 # Prerequisite
