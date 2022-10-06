@@ -20,7 +20,7 @@ categories: [ACAP, Component]
 
 ## Updating Tailscale version
 
-The eap files will be updated from time to time alternativly simply replace the files "tailscale" and "tailscaled" in the app directory with the new versions before building.
+The eap files will be updated from time to time alternatively simply replace the files "tailscale" and "tailscaled" in the app directory with the new versions before building.
 Make sure you use the files for the correct Soc.
 Latest versions can be found at https://pkgs.tailscale.com/stable/#static
 

@@ -6,7 +6,7 @@ categories: [ACAP, MQTT, Component]
 ---
 ObjectPath is an MQTT client that installs in Axis camera to capture an object path through a scene.  It utilizes the video analyctics resources in the camera for tracking and classification (if supported by the camera).  
 Examples of use cases:
-* Heatpapping
+* Heatmap
 * Counting
 * Forensic search 
 

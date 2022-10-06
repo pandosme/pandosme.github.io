@@ -12,7 +12,7 @@ The deployment uses docker container that includes Node-RED and MongoDB.  Once i
 # Prerequisite
 1. Linux computer with git, docker and docker-composed installed
 2. One or more Axis cameras
-3. [Object Path Capture ]({{ site.url }}/acap/mqtt/component/2022/10/03/objectpath.html) ACAP installed and configured in the cameras(s)
+3. [Object Path Capture ]({{ site.url }}/acap/mqtt/component/2022/10/03/objectpath.html) ACAP installed and configured in the camera(s)
 4. Access to some MQTT Broker
 
 # Installing and configuring container
@@ -20,7 +20,7 @@ The deployment uses docker container that includes Node-RED and MongoDB.  Once i
 ```
 git clone https://github.com/pandosme/axis-common-node-red.git
 ```
-2. Change the diretory name (optional)
+2. Change the directory name (optional)
 ```
 mv axis-common-node-red objectpath-analyzer
 ```
@@ -37,7 +37,7 @@ git checkout mongodb
 nano docker-compose.yaml
 ```
 Change default values if needed  
-_The instructions assumes you change the container name to objectpath-analyzer_
+_The instructions assume you change the container name to objectpath-analyzer_
 - ports: - '8600:1880'
 - environment:TZ = Europe/Stockholm
 - nodered:container_name: objectpath-analyzer  
@@ -61,14 +61,14 @@ sudo docker-compose down
 ```
 nano settings.js
 ```
-Change the following properties to your prefered settings:
+Change the following properties to your preferred settings:
 - httpAdminRoot: '/admin',   (Default flows view url http://address:8600/admin)
 - ui: { path: "/" },         (Default dashboard url http://address:8600/)
 - adminAuth:                 (Default disabled.  It is recommended that you enable admin credentials.  See [Securing Node-RED](https://nodered.org/docs/user-guide/runtime/securing-node-red#editor--admin-api-security))
 - httpNodeAuth:              (Default disabled.  It is recommeded to enable credentials to dashboard view. See [Securing Dasboard](https://nodered.org/docs/user-guide/runtime/securing-node-red#http-node-security))
-- contextStorage:            (Default enabled.  Contect data will be stored and retained between reboots)
+- contextStorage:            (Default enabled.  Context data will be stored and retained between reboots)
 - projects:                  (Default enable.  Allows to revisioning of local projects or import remote repositories)  
-- credentialSecret           (Set your own key to encrypt sensative data on host)
+- credentialSecret           (Set your own key to encrypt sensitive data on host)
 9. Start Container
 ```
 sudo docker-compose up -d
@@ -76,7 +76,7 @@ sudo docker-compose up -d
 
 # Installing Object Path Analyzer in Node-RED
 1. Use a Browser and go to http://address:8600/admin
-2. View Welocome messges or stop by clicking on X
+2. View Welcome messages or stop by clicking on X
 3. Select Clone repository
 4. Enter username and email for the local Git client (this data will not be sent anywhere)
 5. Paste below string in "Git repository URL"
@@ -86,7 +86,7 @@ https://github.com/pandosme/objectpath-analyzer.git
 6. Click Clone Project
 Done!
 
-# Initialializing the flows
+# Initializing the flows
 The flows will need to have credentials to your MQTT Broker and your cameras.
 1. Select tab "MQTT Data"
 2. Double-click the purple MQTT subscription node

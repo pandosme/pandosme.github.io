@@ -4,7 +4,7 @@ title:  "Timelapse video with Axis Cameras"
 date: 2020-01-02 00:00:00 +0200
 categories: [ACAP, Recipe, Component]
 ---
-Using a network camera for creating timelpase videos is easy.  The most common use case is recording a construction site progress.  Other common use cases are monitor seasonal chhanges in your back yard or as a quick forensic search video when images are captured on motion detection rather them time.
+Using a network camera for creating timelapse videos is easy.  The most common use case is recording a construction site progress.  Other common use cases are monitor seasonal changes in your back yard or as a quick forensic search video when images are captured on motion detection rather them time.
 
 ## Prerequisite
 1. Axis camera with a mounted SD Card
@@ -14,7 +14,7 @@ Using a network camera for creating timelpase videos is easy.  The most common u
 ## Creating Timelapse
 ![Settings]({{ site.url }}/assets/timelapse.jpg)
 
-You can have a number of simultaneous timelpase recordings at the same time.  Note that at least three images needs to be in a recording  before the recording is show in the recording list.
+You can have a number of simultaneous timelapse recordings at the same time.  Note that at least three images needs to be in a recording before the recording is show in the recording list.
 
 1. Click "Add Timelapse"
 2. Give the recording a descriptive name
@@ -29,7 +29,7 @@ You can have a number of simultaneous timelpase recordings at the same time.  No
 Shows all active recordings
 
 ## Archives
-In order to reduce the risk of filling up storage, recordings should be automaticially archived with a retention period.
+In order to reduce the risk of filling up storage, recordings should be automatically archived with a retention period.
 The retention period gives you time to download recording before it is automatically removed.
 Archiving frequency should be defined by how often images are captured.  A recording triggered by an image every minute should be archived daily.
 Images capture once per day should be archived between 6-12 months.
@@ -38,7 +38,7 @@ Images capture once per day should be archived between 6-12 months.
 Select a recording and inspect captured images.
 
 ## Timers
-A convinient way of adding user-defined timers.  An alternative way is to add these timers in the cameras user interface.
+A convenient way of adding user-defined timers.  An alternative way is to add these timers in the camera user interface.
 
 ## Geolocation
 Setting the cameras Geolocation makes it possible to trigger on Sun Noon.  It also enables a way to filter image capture between dawn-dusk or sunrise-sunset.
