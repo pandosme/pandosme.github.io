@@ -56,7 +56,7 @@ The following events are fired and published on VAPIX/ONVIF event stream
 Payload property "value"
 * Head presence: tnsaxis:CameraApplicationPlatform/headcounter/precense  
 Payload property "state"
-* Head limit: tnsaxis:CameraApplicationPlatform/headcounter/precense  
+* Head limit: tnsaxis:CameraApplicationPlatform/headcounter/limit  
 Payload property "state" True = Counter is above limit, False = Counter is below or equal to limit  
   
 An MQTT client in the camera can be used to publish the above events.
