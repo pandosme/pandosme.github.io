@@ -19,10 +19,6 @@ The detection behavior is optimized for less crowded scenes and people are somew
 2. [Head counter](https://api.aintegration.team/acap/headcounter?source=pages) ACAP
 3. Some client or system that consumes the events for some use case
 
-# Validation
-The configuration page displays heads detected.  
-_Note that the transition events occur on a filter_
-
 # Configuration
 There will always be some level of false detections depending on scene, lighting or behavior that needs to be managed.  Adjust filters until you have acceptable behavior in the validation view.
 
