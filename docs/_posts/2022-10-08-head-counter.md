@@ -16,7 +16,7 @@ The detection behavior is optimized for less crowded scenes and people are somew
 
 # Prerequisite
 1. Axis camera  
-Camera based on ARMHF or AARCH64 that supports AOA (Axis Object Analytics)
+Camera based on ARM7 or AARCH64 that supports AOA (Axis Object Analytics)
 3. [Head counter](https://api.aintegration.team/acap/headcounter?source=pages) ACAP
 4. Some client or system that consumes the events for some use case
 
