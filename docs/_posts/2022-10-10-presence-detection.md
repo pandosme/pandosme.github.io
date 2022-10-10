@@ -52,6 +52,9 @@ _Note that the detection may lose tracking of a a specific head detection.  A ne
 ## Trigger timeout
 After a positive presence state it will be kept high until timeout.  New detections during timeout will extend timeout timer.  
 
+## Minimum presence
+For a use case that is only interested when more than 1 person is detected in the scene. 
+
 # Integration
 The following events are fired and published on VAPIX/ONVIF event stream
 * Presence detection: tnsaxis:CameraApplicationPlatform/presence/detection  
