@@ -7,7 +7,7 @@ categories: [ACAP, MQTT, Component]
 
 Presence detector targets non-critical use cases for low limit crowds where people are somewhat stationary in movement.  Common typical use cases are presence automation, dwell-time, loitering and queue management.
 
-![image]({{ site.url }}/assets/headcounter.jpg)
+![image]({{ site.url }}/assets/presence.jpg)
 
 # Detections
 Presence detects humans by using the camera built-in head detection video analytics.  The performance may very on the scene, camera placement, light condition, camera platform and camera firmware version. 
