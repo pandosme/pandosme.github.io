@@ -5,7 +5,7 @@ date: 2022-10-10 00:00:00 +0200
 categories: [Node-RED, MQTT, Recipe]
 ---
 
-A PIR sensor is often used for triggering some automation when people enters a specific scene.  A camera can also operate as a sophisticated PIR sensor by adding additional service to it.  Using Node-RED as integration middleware is is possible to easily integrate these events with any system, service or device.
+A PIR sensor is often used for triggering some automation when people enter a specific scene.  A camera can also operate as a sophisticated PIR sensor by adding additional service to it.  Using Node-RED as integration middleware is is possible to easily integrate these events with any system, service or device.
 
 # Prerequisite
 1. A compliant Axis camera  
