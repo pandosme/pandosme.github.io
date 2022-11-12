@@ -31,7 +31,7 @@ Supported cameras: Cameras supporting Axis Object Analytics (AOA)
 
 The user interface has four areas (boxes) used for configuration and validation.
 
-![image]({{ site.url }}/assets/presence.jpg)
+![image]({{ site.url }}/assets/directioncounter.jpg)
 
 # Counter view
 Shows the current counter values and the last time they triggered.  
