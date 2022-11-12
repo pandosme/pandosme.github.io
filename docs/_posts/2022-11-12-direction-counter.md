@@ -2,7 +2,7 @@
 layout: post
 title:  "Direction Counter ACAP"
 date: 2022-11-120 00:00:00 +0200
-categories: [ACAP, MQTT, Component]
+categories: [ACAP, Component]
 ---
 
 Counts object movement directions in the camera scene. It uses the cameras analytics services to track and count objects.
