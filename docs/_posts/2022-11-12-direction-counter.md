@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Direction Counter ACAP"
-date: 2022-11-120 00:00:00 +0200
+date: 2022-11-12 00:00:00 +0200
 categories: [ACAP, Component]
 ---
 
