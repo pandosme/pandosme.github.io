@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Direction Counter ACAP"
-date: 2022-11-120 00:00:00 +0200
-categories: [ACAP, MQTT, Component]
+date: 2022-11-12 00:00:00 +0200
+categories: [ACAP, Component]
 ---
 
 Counts object movement directions in the camera scene. It uses the cameras analytics services to track and count objects.
@@ -31,7 +31,7 @@ Supported cameras: Cameras supporting Axis Object Analytics (AOA)
 
 The user interface has four areas (boxes) used for configuration and validation.
 
-![image]({{ site.url }}/assets/presence.jpg)
+![image]({{ site.url }}/assets/directioncounter.jpg)
 
 # Counter view
 Shows the current counter values and the last time they triggered.  
