@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Presense detecion"
+date: 2023-01-31 00:00:00 +0200
+categories: [ACAP]
+---
+Detects how many people are within the cameras scene and fires event on presence and count transition. Targets non-critial use cases for low limit crowds like
+* Automation
+* Queue monitoring
+* Dwell-time
+
+## [Download](https://files.juhlin.me/acap/precense?source=pages)
+
+# Features
+* Easy configuration with visual validation
+* Filter detection area
+* Adjust event timining depending on use-case
+
+# Intgration
+Subscribe to events over MQTT using camera client or [SIMQTT](https://pandosme.github.io/acap/mqtt/component/2021/10/18/simqtt.html).  Events are also published on ONVIF even stream.
+* Count transition changes
+* Presence true/false
+
+# Things to consider
+* Axis camera needs to support AOA (Axis Object Analytics)
+* Detection quality depends on scene, camera placement and ligt conditions
