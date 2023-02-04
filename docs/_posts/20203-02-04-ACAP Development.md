@@ -25,7 +25,7 @@ cd make make_acap
 cd iamge
 . make_all.sh
 ```
-Install the eap-file on your xis Camera
+Install the eap-file on your Axis device
 
-Once you got the ACAP running you can alter athe source code under source.  You only need to to focus on main.c and html/index.html.
+Once you got the sample ACAP running you can alter athe source code under source.  You only need to to focus on main.c and html/index.html.
 
