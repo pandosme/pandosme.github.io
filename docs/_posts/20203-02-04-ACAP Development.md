@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ACAP - Develop your own ACAP"
+title:  "Develop your own ACAP"
 date: 2023-02-04 00:00:00 +0200
 categories: [ACAP]
 ---
