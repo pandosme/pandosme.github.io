@@ -16,7 +16,7 @@ The repository includes multiple ACAPs with user interfaces that you can use as 
 * Fire events
 * Use motion tracking
 * Use image classificatiom
-* Send data on MQTT (using [SIMQTT](https://pandosme.github.io/acap/mqtt/2021/10/18/simqtt.html) as an MQTT proxy.
+* Send data on MQTT (using [SIMQTT](https://pandosme.github.io/acap/mqtt/2021/10/18/simqtt.html) as an MQTT client proxy).
 
 To build an ACAP, all you need to do is
 
