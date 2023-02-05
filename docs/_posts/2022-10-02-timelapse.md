@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Timelapse video with Axis Cameras"
+title:  "Timelapse video"
 date: 2020-01-02 00:00:00 +0200
-categories: [ACAP, Recipe, Component]
+categories: [ACAP]
 ---
 Using a network camera for creating timelapse videos is easy.  The most common use case is recording a construction site progress.  Other common use cases are monitor seasonal changes in your back yard or as a quick forensic search video when images are captured on motion detection rather them time.
 
