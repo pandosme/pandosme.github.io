@@ -6,7 +6,7 @@ categories: [ACAP]
 ---
 Do you want to develop your own service running in an Axis Camera?  ACAP stands for Axis Camera Application Platform.  It is similar to App development for a mobile phone but the difference is that while Apps are targeting users,  ACAP targets integrators. You find more information about ACAP on [Axis Developer Community](https://www.axis.com/developer-community/acap). 
 
-In order to develop an ACAP you need to have basic understanding of C, HTML anf JavaScript.   On [Axis Github](https://github.com/AxisCommunications/acap3-examples) you can find some example ACAPs. The SDK may challaning and there are a number of examples on [Axis Github](https://github.com/AxisCommunications/acap3-examples).  These exemplaes could be used as template but they only demonstrates a specific ACAP service.  They often lack a user interface.  In order to simplify for developers, I have provided common use cases templates/wrappers that demonstrates how to access service in ACAP like API/HTTP, parameters, image, motion tracking and object calssifications.  You are welcome to use these exemple ACAP as a base for your project.  They all have user interfaces and includes all common services used in ACAP.
+In order to develop an ACAP you need to have basic understanding of C, HTML anf JavaScript.   On [Axis Github](https://github.com/AxisCommunications/acap3-examples) you can find some example ACAPs. The SDK may challaning and there are a number of examples on [Axis Github](https://github.com/AxisCommunications/acap3-examples) that demonstrates a specific ACAP service but they often lack a user interface and hard to use as a template.  The examples I provided are well-suited as templates for many different kind of ACAPs. They all have user interfaces and includes all common services used in ACAP.
 
 To get started you will need a Linux computer with [GIT](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker](https://docs.docker.com/engine/install/) installed.  
 
@@ -26,5 +26,5 @@ cd make make_acap
 cd image
 . make_all.sh
 ```
-The SDK build environment will be fetched on the first build and the source code will be compiled.  Once compiled, install the eap-file on your Axis device.  Once you got the sample ACAP running you can start experimenting and alter the source code under source.  You only need to to focus on main.c and html/index.html.  All files with CAPITOL letters are wrappers that hides the complex stuff.
+The SDK build environment container will be fetched on the first build and the source code will be compiled.  Once compiled, install the eap-file on your Axis device.  Once you got the sample ACAP running you can start experimenting and alter the source code under source.  You only need to to focus on main.c and html/index.html.  All files with CAPITOL letters are wrappers that hides the complex stuff.
 
