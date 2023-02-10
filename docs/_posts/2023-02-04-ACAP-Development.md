@@ -8,10 +8,9 @@ Do you want to develop your own service running in an Axis Camera?  ACAP stands 
 
 In order to develop an ACAP you need to have basic understanding of C, HTML anf JavaScript.   On [Axis Github](https://github.com/AxisCommunications/acap3-examples) you can find some example ACAPs. The SDK may be challaning and the examples demonstrates a specific ACAP service.  However, they often lack a user interface and hard to use as a template for a project.  The examples I provided are well-suited as templates for many different kind of ACAPs. They all have user interfaces and includes all common services used in ACAP.
 
-To get started you will need a Linux computer with [GIT](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker](https://docs.docker.com/engine/install/) installed.  
-
-The repository includes multiple ACAPs with user interfaces that you can use as template to build your own service.
-[ACAP Example respository](https://github.com/pandosme/make_acap)
+To get started you will need a Linux computer with [GIT](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker](https://docs.docker.com/engine/install/) installed.\
+\
+My [ACAP Example respository](https://github.com/pandosme/make_acap) repository includes multiple ACAPs with user interfaces that you can use as template to build your own service.
 
 The examples are:
 * Storing parameters
