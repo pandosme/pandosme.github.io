@@ -43,3 +43,7 @@ It may take a couple of minutes before the upgrade is complete.
 Node-RED on an Axis devices do not use the device HTTP server nor the devices user authentication.  Anyone with access 
 to the Axis device may use a Browser to access Node-RED.  It is highly recommended that you configure Node-RED with user 
 credentials by following https://nodered.org/docs/user-guide/runtime/securing-node-red.
+
+## Tips & Tricks
+1. Import [AEDES MQTT broker Node](https://flows.nodered.org/node/node-red-contrib-aedes) to host a local MQTT Broker in the Axis Device.
+2. Import [Axis Node](https://flows.nodered.org/node/node-red-contrib-axis-com) to simplify integration with the device Node-RED is running on.  Read [Working with Axis devices in Node-RED](https://pandosme.github.io/node-red/2020/01/02/AxisNode.html).
