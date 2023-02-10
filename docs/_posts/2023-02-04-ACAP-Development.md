@@ -10,7 +10,10 @@ In order to develop an ACAP you need to have basic understanding of C, HTML anf 
 
 To get started you will need a Linux computer with [GIT](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker](https://docs.docker.com/engine/install/) installed.  
 
-The repository includes multiple ACAPs with user interfaces that you can use as template to build your own service.  The examples are:
+The repository includes multiple ACAPs with user interfaces that you can use as template to build your own service.
+[ACAP Example respository](https://github.com/pandosme/make_acap)
+
+The examples are:
 * Storing parameters
 * Capture an JPEG Image
 * Fire events
