@@ -2,7 +2,7 @@
 layout: post
 title:  "Running Node-RED on an Axis device"
 date: 2020-01-02 00:00:00 +0200
-categories: [ACAP, Node-RED, Component]
+categories: [ACAP, Node-RED]
 ---
 [Node-RED](https://nodered.org) is typically installed on a computer or server such as Linux, Windows, 
 Rasberry Pi or similar.  This is the common way to deploy Node-RED.  There maybe cases where Node-RED is needed for a 
@@ -35,9 +35,10 @@ The installer installs the latest Node-RED version.  It is als possible to updat
 4. Click save.  
 It may take a couple of minutes before the upgrade is complete.
 
-## Limitations
-- Installing Node-RED on Axis devices with limited RAM and FLASH may not work
-- Some imported Node-RED packages may not work due to limitations in Axis device
+## Things to consider
+* The camera needs Internet access during installation.
+* Installing Node-RED on older Axis devices with limited RAM and FLASH may not work
+* Some imported Node-RED packages may not work due to limitations in Axis device
 
 ## Security recommendations
 Node-RED on an Axis devices do not use the device HTTP server nor the devices user authentication.  Anyone with access 

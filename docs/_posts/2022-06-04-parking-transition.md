@@ -2,7 +2,7 @@
 layout: post
 title:  "Parking transition detection"
 date: 2022-06-04 00:00:00 +0200
-categories: [ACAP, MQTT, Component, Recipe]
+categories: [ACAP]
 ---
 For a system that needs a simple way of detecting when a parking space becomes free or occupied.  Typically in a parking garage.
 
@@ -12,16 +12,12 @@ For a system that needs a simple way of detecting when a parking space becomes f
 1. Axis camera 
 2. [Parking Transition](https://files.juhlin.me/acap/Parking?source=pages) ACAP
 
-## Optional services
-_If you need to get transition events over MQTT_   
-3. Configure MQTT client on device
-4. Access to some MQTT Broker
-
 # Parking transition detector
 
 ## Installation
 Install the ACAP in the downloaded zip-file
 (Select appropriate eap-file that matches you Axis device platform)
+
 ## Configuration
 For every parking space visible in the view...
 1. Click the green Add button
@@ -58,12 +54,15 @@ Moving vehicles or persons may block a parked vehicle for a short time and a tra
 Configure the camera MQTT client or install [SIMQTT]({{ site.url }}/acap/mqtt/component/2021/10/18/simqtt.html).
 
 ### SIMQTT
-Configure simqtt
+Topic
 ```
-simqtt/acap/parking/Space1/true (or false)
+simqtt/acap/parking/Space1/[true/false]
+```
+Payload
+```
 {
-  "name":"Camera 5",
-  "location":"Garage 3 level 3",
+  "name":"If defined in SIMQTT",
+  "location":"If defined in SIMQTT",
   "device":"ACCC8EXXXXXX",
   "timestamp":1644442759226,
   "spaceID":"Space1",
