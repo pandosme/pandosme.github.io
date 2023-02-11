@@ -20,7 +20,7 @@ The examples are:
 * Use image classificatiom
 * Send data on MQTT (using [SIMQTT](https://pandosme.github.io/acap/mqtt/2021/10/18/simqtt.html) as an MQTT client proxy).
 
-To build exmple the image example, type the following
+To build the image capture example, type the following
 
 ```
 git clone https://github.com/pandosme/make_acap.git
