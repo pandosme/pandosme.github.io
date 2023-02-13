@@ -2,7 +2,7 @@
 layout: post
 title:  "Presence Detection ACAP"
 date: 2022-10-10 00:00:00 +0200
-categories: [ACAP, MQTT, Component]
+categories: [ACAP, MQTT]
 ---
 
 Presence detector targets non-critical use cases for low limit crowds where people are somewhat stationary in movement.  Common typical use cases are presence automation, dwell-time, loitering and queue management.
