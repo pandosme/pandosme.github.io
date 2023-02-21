@@ -4,8 +4,8 @@ title: Downloads
 permalink: /downloads/
 ---
 
-|Download | Version| Updated |
-|---------------- |-------- |---------- |
+|ACAP | Version| Updated |
+|------------------------ |---------- |------------ |
 |[Direction Counter](https://acap.juhlin.me/package/directioncounter) |1.3.0 |2023-02-17 |
 |[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |3.0.0 |2023-02-17 |
 |[Parking Transition](https://acap.juhlin.me/package/parking) |1.5.1 |2023-02-19 |
