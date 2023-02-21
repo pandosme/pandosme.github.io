@@ -18,7 +18,7 @@ You will find the following events in the cameras events [System | Events | Add 
 3. Direction Counter: Right
 4. Direction Counter: Up
 
-## [Download Direction Counter](https://api.aintegration.team/acap/directioncounter?source=pages)
+## [Download Direction Counter](https://acap.juhlin.me/package/directioncounter)
 
 ## Installation
 Depending on the product platform and its capabilities, install appropriate EAP-file in the camera.  

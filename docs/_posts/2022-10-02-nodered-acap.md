@@ -9,7 +9,7 @@ Rasberry Pi or similar.  This is the common way to deploy Node-RED.  There maybe
 specific solution with an Axis device and there are no other hosts available than the Axis device.  This is when Node-RED 
 Installer ACAP comes handy.
 
-## [Download Node-RED Installer](https://api.aintegration.team/acap/nodered?source=pages)
+## [Download Node-RED Installer](https://acap.juhlin.me/package/Nodered)
 
 ## Why Node-RED?
 Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting
@@ -20,7 +20,7 @@ palette that can be deployed to its runtime in a single-click.
 - Axis camera
 - Mounted SD Card  
 _Not required for devices based on ARTPEC-8_
-- [Node-RED Installer ACAP](https://api.aintegration.team/acap/nodered?source=pages)
+- Node-RED Installer
 
 ## Installation
 

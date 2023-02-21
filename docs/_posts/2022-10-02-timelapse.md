@@ -6,9 +6,11 @@ categories: [ACAP]
 ---
 Using a network camera for creating timelapse videos is easy.  The most common use case is recording a construction site progress.  Other common use cases are monitor seasonal changes in your back yard or as a quick forensic search video when images are captured on motion detection rather them time.
 
+## [Download Timelapse ACAP](https://acap.juhlin.me/package/timelapseme)
+
 ## Prerequisite
 1. Axis camera with a mounted SD Card
-2. [Timelapse ME](https://api.aintegration.team/acap/timelapseme?source=pages) ACAP
+2. Timelapse ACAP
 3. A video player (e.g. VideoLAN or similar)
 
 ## Creating Timelapse
