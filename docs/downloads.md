@@ -8,7 +8,7 @@ permalink: /downloads/
 |------------------------ |---------- |------------ |
 |[Direction Counter](https://acap.juhlin.me/package/directioncounter) |1.3.0 |2023-02-17 |
 |[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |3.0.0 |2023-02-17 |
-|[Parking Transition](https://acap.juhlin.me/package/parking) |1.5.1 |2023-02-19 |
+|[Parking Transition](https://acap.juhlin.me/package/parking) |1.6.0 |2023-02-21 |
 |[Path](https://acap.juhlin.me/package/path) |1.3.0 |2023-02-17 |
 |[Precense Detection](https://acap.juhlin.me/package/presence) |1.6.0 |2023-02-21 |
 |[SIMQTT](https://acap.juhlin.me/package/simqtt) |1.8.0 |2023-02-17 |
