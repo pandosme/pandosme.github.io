@@ -13,4 +13,4 @@ permalink: /downloads/
 |[Precense Detection](https://acap.juhlin.me/package/presence) |1.6.0 |2023-02-21 |
 |[SIMQTT](https://acap.juhlin.me/package/simqtt) |1.8.0 |2023-02-17 |
 |[Timelapse](https://acap.juhlin.me/package/timelapseme) |23.2.21 |2023-02-21 |
-|[Video Overlay](https://acap.juhlin.me/package/xoverlay) |1.5.0 |2023-02-19 |
+|[Video Overlay](https://acap.juhlin.me/package/xoverlay) |1.6.0 |2023-02-21 |
