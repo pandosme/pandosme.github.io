@@ -14,3 +14,5 @@ permalink: /downloads/
 |[SIMQTT](https://acap.juhlin.me/package/simqtt) |1.8.0 |2023-02-17 | 
 |[Timelapse](https://acap.juhlin.me/package/timelapseme) |23.2.21 |2023-02-21 | |
 |[Video Overlay](https://acap.juhlin.me/package/xoverlay) |1.6.0 |2023-02-21 | |
+
+**Note that later versions includes updates for future-proofing on changes in ACAP firmware.  If the installation fails, remove the previous version and install again.**
