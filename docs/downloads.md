@@ -4,13 +4,13 @@ title: Downloads
 permalink: /downloads/
 ---
 
-|ACAP | Version| Updated |
-|------------------------ |---------- |------------ |
-|[Direction Counter](https://acap.juhlin.me/package/directioncounter) |1.3.0 |2023-02-17 |
-|[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |3.0.0 |2023-02-17 |
-|[Parking Transition](https://acap.juhlin.me/package/parking) |1.6.0 |2023-02-21 |
-|[Path](https://acap.juhlin.me/package/path) |1.3.0 |2023-02-17 |
-|[Precense Detection](https://acap.juhlin.me/package/presence) |1.6.0 |2023-02-21 |
-|[SIMQTT](https://acap.juhlin.me/package/simqtt) |1.8.0 |2023-02-17 |
-|[Timelapse](https://acap.juhlin.me/package/timelapseme) |23.2.21 |2023-02-21 |
-|[Video Overlay](https://acap.juhlin.me/package/xoverlay) |1.6.0 |2023-02-21 |
+|ACAP | Version| Updated | Hightlists|
+|------------------------ |---------- |------------ |-------------------------- |
+|[Direction Counter](https://acap.juhlin.me/package/directioncounter) |1.3.0 |2023-02-17 | |
+|[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |3.0.0 |2023-02-17 | |
+|[Parking Transition](https://acap.juhlin.me/package/parking) |1.6.0 |2023-02-21 | |
+|[Path](https://acap.juhlin.me/package/path) |1.3.0 |2023-02-17 | |
+|[Precense Detection](https://acap.juhlin.me/package/presence) |1.7.0 |2023-02-21 | Users can naow select heads, humans, vehicles|
+|[SIMQTT](https://acap.juhlin.me/package/simqtt) |1.8.0 |2023-02-17 | 
+|[Timelapse](https://acap.juhlin.me/package/timelapseme) |23.2.21 |2023-02-21 | |
+|[Video Overlay](https://acap.juhlin.me/package/xoverlay) |1.6.0 |2023-02-21 | |
