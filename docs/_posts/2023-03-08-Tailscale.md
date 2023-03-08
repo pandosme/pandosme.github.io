@@ -13,7 +13,7 @@ A better solution is a VPN connection to a VPN server.  However, setting up a VP
  \
  \
  Read more on [Tailscale](https://tailscale.com/) how it works and how to create a free account to access up to 8 devices.\
- When you are done, install the [Tailscale ACAP client](https://github.com/Mo3he/Axis_Cam_Tailscale) (by Mo3he) on your Axis device.  
+ When you are done, install the [Tailscale Installer ACAP](https://github.com/Mo3he/Axis_Cam_Tailscale) (by Mo3he) on your Axis device.  
  \
 _Note that I am not sponsered or endorsed by Tailscale, just pointing out a good remote access solution._
 
