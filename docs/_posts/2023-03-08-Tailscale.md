@@ -5,7 +5,7 @@ date: 2023-03-08 00:00:00 +0200
 categories: [Security, ACAP]
 ---
 
-In cases when you need access to a remote device such as a camera there are several ways to do this.  One way is to expose the camera to Internet with a public IP address, often by poking a hole in the firewall.  Not a recommended option.  People do this when they do not know better and underestimate the risk with Internet-facing devices (even with a strong password and using HTTPS).  
+In cases when you need access to a remote device such as a camera, there are several ways to do this.  One way is to expose the camera to Internet with a public IP address, often by poking a hole in the firewall.  Not a recommended option.  People do this when they do not know better and underestimate the risk with Internet-facing devices (even with a strong password and using HTTPS).  
 A better solution is a VPN connection to a VPN server.  However, setting up a VPN server solution can be tricky and could get costly.
  \
  \
