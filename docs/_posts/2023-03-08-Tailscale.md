@@ -7,10 +7,10 @@ categories: [Security, ACAP]
 
 In cases when you need access to a remote device such as a camera there are several ways to do this.  One way is to expose the camera to Internet with a public IP address, often by poking a hole in the firewall.  Not a recommended option.  People do this when they do not know better and underestimate the risk with Internet-facing devices (even with a strong password and using HTTPS).  
 A better solution is a VPN connection to a VPN server.  However, setting up a VPN server solution can be tricky and could get costly.
- <br\>
+  \
 [Tailscale](https://tailscale.com/) is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. It enables encrypted point-to-point connections using the open source [WireGuard](https://www.wireguard.com/) protocol, which means only devices on your private network can communicate with each other.  I use Tailscale to gain access to my home netowrk without exposing any ports or setting up a VPN server.  I can access my devices from my mobile phone and Laptops (as they all are running the Tailscale client).
-&NewLine;
+ \
 Read more on Tailscale how it works and how to create a free account to access up to 8 devices.  When you are done, install the [Tailscale ACAP client](https://github.com/Mo3he) (by Mo3he) on your Axis device.  
-<br\>
+ \
 **Note that I am not sponsered or endorsed by Tailscale, just pointing out a good remote access solution.**
 
