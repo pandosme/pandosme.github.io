@@ -6,7 +6,7 @@ permalink: /downloads/
 
 |ACAP | Version| Updated | Hightlists|
 |------------------------ |---------- |------------ |-------------------------- |
-|[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |3.0.1 |2023-02-17 | Fixed Node-RED installation on ARTPEC-8 devices |
+|[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |3.0.1 |2023-03-10 | Fixed Node-RED installation on ARTPEC-8 devices |
 |[Timelapse](https://acap.juhlin.me/package/timelapseme) |23.2.21 |2023-03-01 | Update faulty aarch64 package that failed to start |
 |[Path](https://acap.juhlin.me/package/path) |1.3.0 |2023-02-28 | Update faulty armv7hf package that failed to start |
 |[Precense Detection](https://acap.juhlin.me/package/presence) |1.7.0 |2023-02-21 | Users can now select between face/heads, human/body, vehicles|
