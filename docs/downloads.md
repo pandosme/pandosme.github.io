@@ -6,9 +6,9 @@ permalink: /downloads/
 
 |ACAP | Version| Updated | Hightlists|
 |------------------------ |---------- |------------ |-------------------------- |
-|[Object Counter](https://acap.juhlin.me/package/ObjectCounter) |1.1.1 |2023-03-17 | Bug fixes.  See README.md |
-|[Object Tracker](https://acap.juhlin.me/package/ObjectTracker) |1.0.3 |2023-03-17 | New ACAP |
-|[Object Path](https://acap.juhlin.me/package/ObjectPath) |1.3.3 |2023-03-17 | New ACAP |
+|[Object Counter](https://acap.juhlin.me/package/ObjectCounter) |1.1.2 |2023-03-18 | Bug fixes.  See README.md |
+|[Object Tracker](https://acap.juhlin.me/package/ObjectTracker) |1.0.4 |2023-03-18 | Bug fixes.  See README.md |
+|[Object Path](https://acap.juhlin.me/package/ObjectPath) |1.3.4 |2023-03-18 | Bug fixes.  See README.md |
 |[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |3.0.1 |2023-03-10 | Fixed Node-RED installation on ARTPEC-8 devices |
 |[Timelapse](https://acap.juhlin.me/package/timelapseme) |23.2.21 |2023-03-01 | Update faulty aarch64 package that failed to start |
 |[Motion Path](https://acap.juhlin.me/package/MotionPath) |1.3.0 |2023-02-28 | Changed name |
