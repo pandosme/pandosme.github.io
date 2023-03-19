@@ -6,7 +6,7 @@ permalink: /downloads/
 
 |ACAP | Version| Updated | Hightlists|
 |------------------------ |---------- |------------ |-------------------------- |
-|[Object Counter](https://acap.juhlin.me/package/ObjectCounter) |1.1.2 |2023-03-18 | Bug fixes.  See README.md |
+|[Object Counter](https://acap.juhlin.me/package/ObjectCounter) |1.1.3 |2023-03-19 | Bug fixes.  See README.md |
 |[Object Tracker](https://acap.juhlin.me/package/ObjectTracker) |1.0.4 |2023-03-18 | Bug fixes.  See README.md |
 |[Object Path](https://acap.juhlin.me/package/ObjectPath) |1.3.4 |2023-03-18 | Bug fixes.  See README.md |
 |[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |3.0.1 |2023-03-10 | Fixed Node-RED installation on ARTPEC-8 devices |
