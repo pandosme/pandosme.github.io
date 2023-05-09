@@ -6,7 +6,7 @@ permalink: /downloads/
 
 |ACAP | Version| Updated | Hightlists|
 |------------------------ |---------- |------------ |-------------------------- |
-|[Presence Detection](https://acap.juhlin.me/package/presence) |2.1.0 |2023-05-08 | Behaviour update|
+|[Presence Detection](https://acap.juhlin.me/package/presence) |2.1.0 |2023-05-08 | Behaviour update |
 |[Object Counter](https://acap.juhlin.me/package/ObjectCounter) |1.1.3 |2023-03-19 | Bug fixes.  See README.md |
 |[Object Tracker](https://acap.juhlin.me/package/ObjectTracker) |1.0.4 |2023-03-18 | Bug fixes.  See README.md |
 |[Object Path](https://acap.juhlin.me/package/ObjectPath) |1.3.4 |2023-03-18 | Bug fixes.  See README.md |
@@ -15,7 +15,7 @@ permalink: /downloads/
 |[Motion Path](https://acap.juhlin.me/package/MotionPath) |1.3.0 |2023-02-28 | Changed name |
 |[Direction Counter](https://acap.juhlin.me/package/directioncounter) |1.3.0 |2023-02-17 | |
 |[Parking Transition](https://acap.juhlin.me/package/parking) |1.6.0 |2023-02-21 | |
-|[SIMQTT](https://acap.juhlin.me/package/simqtt) |1.8.0 |2023-02-17 | 
+|[SIMQTT](https://acap.juhlin.me/package/simqtt) |1.8.0 |2023-02-17 | |
 |[Video Overlay](https://acap.juhlin.me/package/xoverlay) |1.6.0 |2023-02-21 | |
 
 **Note that later versions includes updates for future-proofing on changes in ACAP firmware.  If the installation fails, remove the previous version and install again.**
