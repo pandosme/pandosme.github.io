@@ -6,13 +6,13 @@ permalink: /downloads/
 
 |ACAP | Version| Updated | Hightlists|
 |------------------------ |---------- |------------ |-------------------------- |
+|[Precense Detection](https://acap.juhlin.me/package/presence) |2.1.0 |2023-05-08 | Behaviour update|
 |[Object Counter](https://acap.juhlin.me/package/ObjectCounter) |1.1.3 |2023-03-19 | Bug fixes.  See README.md |
 |[Object Tracker](https://acap.juhlin.me/package/ObjectTracker) |1.0.4 |2023-03-18 | Bug fixes.  See README.md |
 |[Object Path](https://acap.juhlin.me/package/ObjectPath) |1.3.4 |2023-03-18 | Bug fixes.  See README.md |
 |[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |3.0.1 |2023-03-10 | Fixed Node-RED installation on ARTPEC-8 devices |
 |[Timelapse](https://acap.juhlin.me/package/timelapseme) |23.2.21 |2023-03-01 | Update faulty aarch64 package that failed to start |
 |[Motion Path](https://acap.juhlin.me/package/MotionPath) |1.3.0 |2023-02-28 | Changed name |
-|[Precense Detection](https://acap.juhlin.me/package/presence) |1.7.0 |2023-02-21 | Users can now select between face/heads, human/body, vehicles|
 |[Direction Counter](https://acap.juhlin.me/package/directioncounter) |1.3.0 |2023-02-17 | |
 |[Parking Transition](https://acap.juhlin.me/package/parking) |1.6.0 |2023-02-21 | |
 |[SIMQTT](https://acap.juhlin.me/package/simqtt) |1.8.0 |2023-02-17 | 
