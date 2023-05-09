@@ -8,4 +8,4 @@ categories: [ACAP]
 
 ## [TFLITE ACAP Open Source Code Package](https://github.com/pandosme/TFLITE_1)
 
-Limited coding experience is need unless you want to extend that ACAP with additional behavior or customized outputs, and integration.
+Limited coding experience is need unless you want to extend the ACAP with additional behavior or customized outputs, and integration.
