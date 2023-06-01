@@ -22,6 +22,8 @@ palette that can be deployed to its runtime in a single-click.
 _Not required for devices based on ARTPEC-8_
 - Node-RED Installer
 
+### Download [Node-RED Installer](https://acap.juhlin.me/package/Nodered)
+
 ## Installation
 
 1. Install the appropriate EAP file based on the device platform.  
