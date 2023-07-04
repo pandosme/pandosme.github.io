@@ -6,6 +6,7 @@ permalink: /downloads/
 
 |ACAP | Version| Updated | Hightlists|
 |------------------------ |---------- |------------ |-------------------------- |
+|[Detection & Cropping](https://acap.juhlin.me/package/detectio) |1.2.0 |2023-07-01 | Improved cropping |
 |[Presence Detection](https://acap.juhlin.me/package/presence) |2.1.0 |2023-05-08 | Behaviour update |
 |[Object Counter](https://acap.juhlin.me/package/ObjectCounter) |1.1.3 |2023-03-19 | Bug fixes.  See README.md |
 |[Object Tracker](https://acap.juhlin.me/package/ObjectTracker) |1.0.4 |2023-03-18 | Bug fixes.  See README.md |
