@@ -6,9 +6,6 @@ categories: [ACAP]
 ---
 Do you want to develop your own service running in an Axis Camera?  ACAP stands for Axis Camera Application Platform.  It is similar to App development for a mobile phone but the difference is that while Apps are targeting users,  ACAP targets integrators. You find more information about ACAP on [Axis Developer Community](https://www.axis.com/developer-community/acap). 
 
-
-<a href="https://www.buymeacoffee.com/fredjuhlinl" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
 In order to develop an ACAP you need to have basic understanding of C, HTML anf JavaScript.   On [Axis Github](https://github.com/AxisCommunications/acap3-examples) you can find some example ACAPs. The SDK may be challaning and the examples demonstrates a specific ACAP service.  However, they often lack a user interface and hard to use as a template for a project.  The examples I provided are well-suited as templates for many different kind of ACAPs. They all have user interfaces and includes all common services used in ACAP.
 
 To get started you will need a Linux computer with [GIT](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker](https://docs.docker.com/engine/install/) installed.\
