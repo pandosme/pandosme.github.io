@@ -8,6 +8,6 @@ As a passionate integrator with developer skills, I develope services and recipe
 &nbsp;\
 If you have any problems, questions, suggestions, or other ideas, please reach out.  
 fred.juhlin@gmail.com
-
+<a href="https://www.buymeacoffee.com/fredjuhlinl" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
  
