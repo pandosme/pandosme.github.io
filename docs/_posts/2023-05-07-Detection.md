@@ -6,7 +6,8 @@ categories: [ACAP]
 ---
 
 Sometimes you need to detec something specifc and you may need a cropped image of the object.  This is what Detection ACAP provides.  
-  
+
+<a href="https://www.buymeacoffee.com/fredjuhlinl" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
  
 The AI model used is [COCO SSD](https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd) that detects about 70 different objects inclusing 
 person, bicycle, car, motorcycle, airplane, bus, train, truck, boat, cat, dog, horse, sheep,... 
