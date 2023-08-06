@@ -8,8 +8,6 @@ For a system that needs a simple way of detecting when a parking space becomes f
 
 ![Parking-image]({{ site.url }}/assets/parking_transition.jpeg)
 
-<a href="https://www.buymeacoffee.com/fredjuhlinl" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
 ## [Download Parking Transition](https://acap.juhlin.me/package/parking)
 
 # Prerequisite
