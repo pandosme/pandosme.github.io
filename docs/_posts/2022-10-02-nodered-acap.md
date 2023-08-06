@@ -9,6 +9,8 @@ Rasberry Pi or similar.  This is the common way to deploy Node-RED.  There maybe
 specific solution with an Axis device and there are no other hosts available than the Axis device.  This is when Node-RED 
 Installer ACAP comes handy.
 
+<a href="https://www.buymeacoffee.com/fredjuhlinl" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 ## [Download Node-RED Installer](https://acap.juhlin.me/package/Nodered)
 
 ## Why Node-RED?
