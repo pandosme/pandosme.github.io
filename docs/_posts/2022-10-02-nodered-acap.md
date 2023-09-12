@@ -1,17 +1,27 @@
 ---
 layout: post
 title:  "Running Node-RED on an Axis device"
-date: 2020-01-02 00:00:00 +0200
+date: 2023-09-12 00:00:00 +0200
 categories: [ACAP, Node-RED]
 ---
 [Node-RED](https://nodered.org) is typically installed on a computer or server such as Linux, Windows, 
 Rasberry Pi or similar.  This is the common way to deploy Node-RED.  There maybe cases where Node-RED is needed for a 
-specific solution with an Axis device and there are no other hosts available than the Axis device.  This is when Node-RED 
-Installer ACAP comes handy.
+specific solution with an Axis device and there are no other hosts available than the Axis device.
 
-## [Download Node-RED Installer](https://acap.juhlin.me/package/Nodered)
+Do you need to have a service running inside the device targeting a specific system, api or service not supported in the device?  You can do this without needing to use Axis ACAP SDK or be a software developer.  The Node-Red-Installer comes with pre-installed nodes that provides access to resources inside the device.  With these nodes you can create sophisticated logic and integration that was previously only doable with ACAP.
+
+Device Resource Nodes:
+1. Listen to all events detected in the device.  Filter on a specific event to trigger a flow.
+2. Fire a device event to trigger actions in the device or on a VMS (Video Management System) based on a flow logic.
+3. Take a JPEG image that can be processed or sent to any service or API that Node-RED community supports.  Image cropping is supported.
+4. Video analytics data including detections, trackers and paths.  This powerful node allows you easily process and filter  analytics for specific use cases like scene-specific detectors, automation, heatmapping, automation, forensic search and much more.
+
+By importing the [Axis Com Node](https://flows.nodered.org/node/node-red-contrib-axis-com) you can extend the integration with the device that Node-RED is running on.  Read [Working with Axis devices in Node-RED](https://pandosme.github.io/node-red/2020/01/02/AxisNode.html).
+
+## [Download Node-RED Installer Version 3.5](https://acap.juhlin.me/package/Nodered)
 
 ## Why Node-RED?
+
 Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting
 ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the
 palette that can be deployed to its runtime in a single-click. 
@@ -49,6 +59,3 @@ Node-RED on an Axis devices do not use the device HTTP server nor the devices us
 to the Axis device may use a Browser to access Node-RED.  It is highly recommended that you configure Node-RED with user 
 credentials by following https://nodered.org/docs/user-guide/runtime/securing-node-red.
 
-## Tips & Tricks
-1. Import [AEDES MQTT broker Node](https://flows.nodered.org/node/node-red-contrib-aedes) to host a local MQTT Broker in the Axis Device.
-2. Import [Axis Node](https://flows.nodered.org/node/node-red-contrib-axis-com) to simplify integration with the device Node-RED is running on.  Read [Working with Axis devices in Node-RED](https://pandosme.github.io/node-red/2020/01/02/AxisNode.html).
