@@ -6,9 +6,9 @@ categories: [ACAP, Node-RED]
 ---
 [Node-RED](https://nodered.org) is typically installed on a computer or server such as Linux, Windows, 
 Rasberry Pi or similar.  This is the common way to deploy Node-RED.  There maybe cases where Node-RED is needed for a 
-specific solution with an Axis device and there are no other hosts available than the Axis device.
+specific solution with an Axis device and there are no other hosts available than the Axis device.  
 
-Do you need to have a service running inside the device targeting a specific system, api or service not supported in the device?  You can do this without needing to use Axis ACAP SDK or be a software developer.  The Node-Red-Installer comes with pre-installed nodes that provides access to resources inside the device.  With these nodes you can create sophisticated logic and integration that was previously only doable with ACAP.
+Do you need to have a custom service on the device targeting a specific system, api or service not supported in the device?  You can develop this service without using Axis ACAP SDK or be a software developer.  The Node-Red-Installer comes with pre-installed nodes that provides access to resources inside the device.  With these nodes you can create sophisticated logic and integration that was previously only doable with ACAP.  
 
 Device Resource Nodes:
 1. Listen to all events detected in the device.  Filter on a specific event to trigger a flow.
@@ -16,7 +16,7 @@ Device Resource Nodes:
 3. Take a JPEG image that can be processed or sent to any service or API that Node-RED community supports.  Image cropping is supported.
 4. Object analytics data including detections, trackers and paths.  This powerful node allows you easily process and filter  analytics for specific use cases like scene-specific detectors, automation, heatmapping, automation, forensic search and much more.
 
-Import the example Nodes from your Node-RED [Menu | Import | Examples | node-red-contrib-axis-host].  These examples shows how to secure your Node-RED and visualize objects.  You may need to import additional nodes in order for the examples to work (e.g. Dashbord nodes).
+Import the example Nodes from your Node-RED [Menu | Import | Examples | node-red-contrib-axis-host].  These examples shows how to secure your Node-RED and visualize objects in a dashboard.  You may need to import additional nodes in order for the examples to work (e.g. Dashbord nodes).
 
 By importing the [Axis Com Node](https://flows.nodered.org/node/node-red-contrib-axis-com) you can extend the integration with the device that Node-RED is running on.  Read [Working with Axis devices in Node-RED](https://pandosme.github.io/node-red/2020/01/02/AxisNode.html).
 
