@@ -16,7 +16,7 @@ Device Resource Nodes:
 3. Take a JPEG image that can be processed or sent to any service or API that Node-RED community supports.  Image cropping is supported.
 4. Object analytics data including detections, trackers and paths.  This powerful node allows you easily process and filter  analytics for specific use cases like scene-specific detectors, automation, heatmapping, automation, forensic search and much more.
 
-Import the example Nodes from your Node-RED [Menu | Import | Examples | node-red-contrib-axis-host].  These examples shows how to secure your Node-RED and visualize objects in a dashboard.  You may need to import additional nodes in order for the examples to work (e.g. Dashbord nodes).
+Import the example Nodes from your Node-RED Menu|Import|Examples|node-red-contrib-axis-host.  These examples shows how to secure your Node-RED and visualize objects in a dashboard.  You may need to import additional nodes in order for the examples to work (e.g. Dashbord nodes).  
 
 By importing the [Axis Com Node](https://flows.nodered.org/node/node-red-contrib-axis-com) you can extend the integration with the device that Node-RED is running on.  Read [Working with Axis devices in Node-RED](https://pandosme.github.io/node-red/2020/01/02/AxisNode.html).
 
