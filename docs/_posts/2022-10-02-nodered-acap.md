@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Running Node-RED on an Axis device"
-date: 2023-09-12 00:00:00 +0200
+date: 2023-09-12 05:00:00 +0200
 categories: [ACAP, Node-RED]
 ---
 [Node-RED](https://nodered.org) is typically installed on a computer or server such as Linux, Windows, 
