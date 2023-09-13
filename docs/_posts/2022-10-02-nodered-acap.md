@@ -34,13 +34,16 @@ palette that can be deployed to its runtime in a single-click.
 _Not required for devices based on ARTPEC-8_
 - Node-RED Installer
 
-### [Download Node-RED Installer Version 3.5](https://acap.juhlin.me/package/Nodered)
+### [Download Node-RED Installer](https://acap.juhlin.me/package/Nodered)
+Pre-installed nodes:
+- node-red-contrib-axis-host
 
 ### [Download Node-RED Bundle](https://acap.juhlin.me/package/Bundle)
-The bundle version is Node-RED Installer with the following common packages pre-installed
+Pre-installed nodes:
+- node-red-contrib-axis-host
+- node-red-contrib-axis-com
 - node-red-dashboard
 - node-red-node-ui-table
-- node-red-contrib-axis-com
 - node-red-contrib-bcrypt (to simplify NoeRed password hashing.  Import the example "Securitng NodeRED" to add/set credentials)
 
 ## Installation
