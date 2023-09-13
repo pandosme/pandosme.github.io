@@ -8,7 +8,7 @@ categories: [ACAP, Node-RED]
 Rasberry Pi or similar.  This is the common way to deploy Node-RED.  There maybe cases where Node-RED is needed for a 
 specific solution with an Axis device and there are no other hosts available than the Axis device.  
 
-Do you need to have a custom service on the device targeting a specific system, api or service not supported in the device?  You can develop this service without using Axis ACAP SDK or be a software developer.  The Node-Red-Installer comes with pre-installed nodes that provides access to resources inside the device.  With these nodes you can create sophisticated logic and integration that was previously only doable with ACAP.  
+Do you need to have a custom service on the device targeting a specific system, api or service not supported in the device?  You can develop this service without using Axis ACAP SDK or be a software developer.  The Node-Red-Installer comes with pre-installed nodes that provides access to resources inside the device.  With these nodes you can create sophisticated logic and integration that was previously only doable with ACAP SDK.  
 
 ![image]({{ site.url }}/assets/node-red-contrib-host.JPG)
 
@@ -62,9 +62,10 @@ The installer installs the latest Node-RED version.  It is als possible to updat
 It may take a couple of minutes before the upgrade is complete.
 
 ## Things to consider
-* The camera needs Internet access during installation.
+* The camera needs Internet access during installation.  If you are behind a proxy, select "Settings" and set proxy.
 * Installing Node-RED on older Axis devices with limited RAM and FLASH may not work
-* Some imported Node-RED packages may not work due to limitations in Axis device
+* The Object (analytics) nodes may not work on older cameras or firmware.  If Axis AOA is installed it should work.
+* Selected packages imported from the Node-RED community may not work due to limitations in Axis device.
 
 ## Security recommendations
 Node-RED on an Axis device does not use the device's HTTP server nor the device's user authentication.   Anyone with access 
