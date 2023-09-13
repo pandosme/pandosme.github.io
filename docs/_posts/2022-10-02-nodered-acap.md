@@ -39,7 +39,7 @@ The bundle have the following common packages pre-installed
 - node-red-dashboard
 - node-red-node-ui-table
 - node-red-contrib-axis-com
-- node-red-contrib-bcrypt (to simplify NoeRed password hashing.  Import the example "Securitng NodeRED" to add credentials
+- node-red-contrib-bcrypt (to simplify NoeRed password hashing.  Import the example "Securitng NodeRED" to add/set credentials)
 
 ## Installation
 
