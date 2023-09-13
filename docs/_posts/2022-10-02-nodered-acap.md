@@ -4,7 +4,11 @@ title:  "Running Node-RED on an Axis device"
 date: 2023-09-12 05:00:00 +0200
 categories: [ACAP, Node-RED]
 ---
-[Node-RED](https://nodered.org) is typically installed on a computer or server such as Linux, Windows, 
+[Node-RED](https://nodered.org) is a programming tool for wiring together hardware devices, APIs and online services in new and interesting
+ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the
+palette that can be deployed to its runtime in a single-click. 
+
+Node-RED is typically installed on a computer or server such as Linux, Windows, 
 Rasberry Pi or similar.  This is the common way to deploy Node-RED.  There maybe cases where Node-RED is needed for a 
 specific solution with an Axis device and there are no other hosts available than the Axis device.  
 
@@ -20,12 +24,6 @@ Device Resource Nodes:
 4. Object analytics data including detections, trackers and paths.  This powerful node allows you easily process and filter  analytics for specific use cases like scene-specific detectors, automation, heatmapping, automation, forensic search and much more.
 
 Please read the help/documentation on each node for detailed information.  Import the example Nodes from your Node-RED Menu, Import, Examples, node-red-contrib-axis-host.  These examples shows how to secure your Node-RED and visualize objects in a dashboard.  You may need to import additional nodes in order for the examples to work (e.g. Dashbord nodes).  
-
-## Why Node-RED?
-
-Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting
-ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the
-palette that can be deployed to its runtime in a single-click. 
 
 ## Prerequisite
 - Axis camera
