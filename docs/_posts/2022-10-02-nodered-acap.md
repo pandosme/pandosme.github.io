@@ -32,9 +32,9 @@ palette that can be deployed to its runtime in a single-click.
 _Not required for devices based on ARTPEC-8_
 - Node-RED Installer
 
-## [Download Node-RED Installer Version 3.5](https://acap.juhlin.me/package/Nodered)
+### [Download Node-RED Installer Version 3.5](https://acap.juhlin.me/package/Nodered)
 
-## [Download Node-RED Bundle](https://acap.juhlin.me/package/Bundle)
+### [Download Node-RED Bundle](https://acap.juhlin.me/package/Bundle)
 The bundle have the following common packages pre-installed
 - node-red-dashboard
 - node-red-node-ui-table
