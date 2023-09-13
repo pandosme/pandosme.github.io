@@ -35,7 +35,7 @@ _Not required for devices based on ARTPEC-8_
 ### [Download Node-RED Installer Version 3.5](https://acap.juhlin.me/package/Nodered)
 
 ### [Download Node-RED Bundle](https://acap.juhlin.me/package/Bundle)
-The bundle have the following common packages pre-installed
+The bundle version is Node-RED Installer with the following common packages pre-installed
 - node-red-dashboard
 - node-red-node-ui-table
 - node-red-contrib-axis-com
