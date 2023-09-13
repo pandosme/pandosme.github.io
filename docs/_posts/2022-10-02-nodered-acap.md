@@ -20,14 +20,6 @@ Import the example Nodes from your Node-RED Menu, Import, Examples, node-red-con
 
 By importing the [Axis Com Node](https://flows.nodered.org/node/node-red-contrib-axis-com) you can extend the integration with the device that Node-RED is running on.  Read [Working with Axis devices in Node-RED](https://pandosme.github.io/node-red/2020/01/02/AxisNode.html).
 
-## [Download Node-RED Installer Version 3.5](https://acap.juhlin.me/package/Nodered)
-## [Download Node-RED Bundle](https://acap.juhlin.me/package/Bundle)
-The bundle have the following common packages pre-installed
-- node-red-dashboard
-- node-red-node-ui-table
-- node-red-contrib-axis-com
-- node-red-contrib-bcrypt (to simplify NoeRed password hashing.  Import the example "Securitng NodeRED" to add credentials
-
 ## Why Node-RED?
 
 Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting
@@ -40,7 +32,14 @@ palette that can be deployed to its runtime in a single-click.
 _Not required for devices based on ARTPEC-8_
 - Node-RED Installer
 
+## [Download Node-RED Installer Version 3.5](https://acap.juhlin.me/package/Nodered)
 
+## [Download Node-RED Bundle](https://acap.juhlin.me/package/Bundle)
+The bundle have the following common packages pre-installed
+- node-red-dashboard
+- node-red-node-ui-table
+- node-red-contrib-axis-com
+- node-red-contrib-bcrypt (to simplify NoeRed password hashing.  Import the example "Securitng NodeRED" to add credentials
 
 ## Installation
 
