@@ -32,10 +32,12 @@ _Not required for devices based on ARTPEC-8_
 - Node-RED Installer
 
 ### [Download Node-RED Installer](https://acap.juhlin.me/package/Nodered)
+Use this version if you do not intend to have any dashboard.
 Pre-installed nodes:
 - node-red-contrib-axis-host
 
 ### [Download Node-RED Bundle](https://acap.juhlin.me/package/Bundle)
+Use this version if you will have a dashboard.
 Pre-installed nodes:
 - node-red-contrib-axis-host
 - node-red-contrib-axis-com
