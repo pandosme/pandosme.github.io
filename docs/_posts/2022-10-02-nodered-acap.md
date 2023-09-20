@@ -23,6 +23,8 @@ Device Resource Nodes:
 3. Take a JPEG image that can be processed or sent to any service or API that Node-RED community supports.  Image cropping is supported.
 4. Object analytics data including detections, trackers and paths.  This powerful node allows you easily process and filter  analytics for specific use cases like scene-specific detectors, automation, heatmapping, automation, forensic search and much more.
 
+### [View Demonstration videos on Youtube](https://www.youtube.com/playlist?list=PLqJaAt9kTPXNxVIJXi7ixZPCvKqNeKQ_U)
+
 Please read the help/documentation on each node for detailed information.  Import the example Nodes from your Node-RED Menu, Import, Examples, node-red-contrib-axis-host.  These examples shows how to secure your Node-RED and visualize objects in a dashboard.  You may need to import additional nodes in order for the examples to work (e.g. Dashbord nodes).  
 
 ## Prerequisite
