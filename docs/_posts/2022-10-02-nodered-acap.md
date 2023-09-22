@@ -43,7 +43,7 @@ Pre-installed nodes:
 - node-red-contrib-bcrypt (to simplify NoeRed password hashing.  Import the example "Securitng NodeRED" to add/set credentials)
 
 ### [Download Node-RED Installer](https://acap.juhlin.me/package/Nodered)
-Use this version if you develop cusotm logic or integration that doesn not have any user dashboard.
+Use this version if you develop custom logic or integration that doesn not have any user dashboard.
 Pre-installed nodes:
 - node-red-contrib-axis-host
 
@@ -55,6 +55,8 @@ _Note: Installation may take up to 3-4 minutes_
 3. Use a browser and access Node-RED on http://device-IP-address:1880
 
 ## Updating Node-RED
+*Note that installing the ACAP twice on an ARTPEC-8 camera will do a scratch install and flows will be flushed.  When installing on a device that uses SD Card, flows will be maintained*
+
 The installer installs the latest Node-RED version.  It is als possible to update Node-RED.   You must use the device legacy interface.
 1. Navigate to "Apps"
 2. Click Node-RED icon
