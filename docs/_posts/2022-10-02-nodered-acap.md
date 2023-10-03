@@ -33,19 +33,13 @@ Please read the help/documentation on each node for detailed information.  Impor
 _Not required for devices based on ARTPEC-8_
 - Node-RED Installer
 
-### [Download Node-RED Bundle](https://acap.juhlin.me/package/Bundle)
-Use this version if you intend to play, test or build flows with a user dashboard.
+### [Download Node-RED Installer](https://acap.juhlin.me/package/Nodered)
 Pre-installed nodes:
 - node-red-contrib-axis-host
 - node-red-contrib-axis-com
 - node-red-dashboard
 - node-red-node-ui-table
 - node-red-contrib-bcrypt (to simplify NodeRED password hash generation.  Import the example "Securitng NodeRED" to add/set credentials)
-
-### [Download Node-RED Installer](https://acap.juhlin.me/package/Nodered)
-Use this version if you develop custom logic or integration that doesn not have any user dashboard.
-Pre-installed nodes:
-- node-red-contrib-axis-host
 
 ## Installation
 
