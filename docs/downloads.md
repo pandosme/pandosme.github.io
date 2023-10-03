@@ -6,8 +6,7 @@ permalink: /downloads/
 
 |ACAP | Version| Updated | Highlights |
 |------------------------ |---------- |------------ |-------------------------- |
-|[Node-RED Bundle](https://acap.juhlin.me/package/Nodered) |3.5.2 |2023-09-23 | More examples, Enabled context |
-|[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |3.5.0 |2023-09-12 | Added nodes to access resources in the device |
+|[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |3.6.0 |2023-10-03 | Bundled with nodes and emaples |
 |[Detection & Cropping](https://acap.juhlin.me/package/detection) |1.2.0 |2023-07-01 | Improved cropping |
 |[Presence Detection](https://acap.juhlin.me/package/presence) |2.1.0 |2023-05-08 | Behaviour update |
 |[Object Counter](https://acap.juhlin.me/package/ObjectCounter) |1.1.3 |2023-03-19 | Bug fixes.  See README.md |
