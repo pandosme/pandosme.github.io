@@ -6,7 +6,7 @@ permalink: /downloads/
 
 |ACAP | Version| Updated | Highlights |
 |------------------------ |---------- |------------ |-------------------------- |
-|[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |3.6.0 |2023-10-03 | Bundled with nodes and emaples |
+|[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |3.6.1 |2023-10-04 | Support for changes in fw 11.6.x |
 |[Detection & Cropping](https://acap.juhlin.me/package/detection) |1.2.0 |2023-07-01 | Improved cropping |
 |[Presence Detection](https://acap.juhlin.me/package/presence) |2.1.0 |2023-05-08 | Behaviour update |
 |[Object Counter](https://acap.juhlin.me/package/ObjectCounter) |1.1.3 |2023-03-19 | Bug fixes.  See README.md |
