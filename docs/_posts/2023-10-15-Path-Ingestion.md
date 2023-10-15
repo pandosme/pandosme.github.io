@@ -5,7 +5,7 @@ date: 2023-10-15 00:00:00 +0200
 categories: [ACAP,Node-RED]
 ---
 
-This is an extension flow for [Node-RED Installer ACAP](https://pandosme.github.io/acap/node-red/2023/09/12/nodered-acap.html) that stores object paths detected by the xame into a MongoDB.
+This is an extension flow for [Node-RED Installer ACAP](https://pandosme.github.io/acap/node-red/2023/09/12/nodered-acap.html) that stores object paths detected into a MongoDB.
 
 Object Paths can be use for a number of use cases.  The most common are:
 * Forensic search
@@ -13,12 +13,10 @@ Object Paths can be use for a number of use cases.  The most common are:
 * Dwell Heatmap
 * Counting
 
-It is all about getting the object path data into a database to allow other applications to query this database.  One option is to install [ObjectPath ACAP](https://pandosme.github.io/acap/2023/03/16/Objects.html) in the camera.  This solution requires an MQTT broker and middleware that can take the Path messga and store it in a database.  A perfectly good solution.  
-However, if you need a more dynamic and mainataineable solution there is an alternative option.  Run eveything in Node-RED on the camera that will store the path data into a mongodb wihtout going through a MQTT and middlware.  This solution can replace the solution with [ObjectPath ACAP](https://pandosme.github.io/acap/2023/03/16/Objects.html).  
-Your application (whatever that may be) queires and process the data from the database.
+It is all about getting the object path data into a database to allow other applications to query.  The flow allow you to easily inject path data into a MongoDB wihtout going through a MQTT and middlware and also eliminate unwanted detections at the source instead of building filters on the system level.  The solution does not require any messaging to a middlware that injects the data into a MongoDB.  Your application (whatever that may be) may query and process the path data from the database.
 
 ### Prerequisite
-* Axis Camera
+* Axis Camera (use the latest firmware version for best result).
 * [Node-RED Installer ACAP](https://pandosme.github.io/acap/node-red/2023/09/12/nodered-acap.html)
 * Access to a MongoDB. If you don't have a MonGoDB, this can easily be installed using docker with the following [docker-compose.yaml](https://github.com/pandosme/EmbeddedFlows/raw/main/resources/mongodb/docker-compose.yaml).
 
