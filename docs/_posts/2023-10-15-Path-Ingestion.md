@@ -30,7 +30,7 @@ Assumed that have the prerequisite...
 * Deploy and go to the Node-RED Dashboard http://camera-ip:1880/ui
 
 ### Dashboard
-The dashboard is mainly for for configuration and validation.  It queries the database and visulize a flow heatmep. Use the settings to ignore unwanted detections.  
+The dashboard is mainly for for configuration and validation.  It queries the database and visulize a flow heatmap. Use the settings to ignore unwanted detections.  
 ![dashboard](https://github.com/pandosme/EmbeddedFlows/raw/main/images/dashboard_path_heatmap.jpg)
 
 ### Flows
