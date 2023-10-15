@@ -17,11 +17,11 @@ It is all about getting the object path data into a database to allow other appl
 
 ### Prerequisite
 * Axis Camera (use the latest firmware version for best result).
-* [Node-RED Installer ACAP](https://pandosme.github.io/acap/node-red/2023/09/12/nodered-acap.html)
-* Access to a MongoDB. If you don't have a MonGoDB, this can easily be installed using docker with the following [docker-compose.yaml](https://github.com/pandosme/EmbeddedFlows/raw/main/resources/mongodb/docker-compose.yaml).
+* [Node-RED Installer ACAP](https://pandosme.github.io/acap/node-red/2023/09/12/nodered-acap.html).  _An SD Card may be required if the camera is not based on ARTPEC-8._
+* The camera must have access to a MongoDB. If you don't have a MongoDB, this can easily be installed using docker with the following [docker-compose.yaml](https://github.com/pandosme/EmbeddedFlows/raw/main/resources/mongodb/docker-compose.yaml).
 
 ### Installation
-Assumed that have the prerequisite...
+Assumed that have the prerequisite:
 * Import the [MongoDB Node](node-red-node-mongodb) into Node-RED via Menu | Manage Palette
 * Copy the flow [Path Ingestion.json](https://github.com/pandosme/EmbeddedFlows/raw/main/flows/Path%20Ingestion.json) and import the flow via Menu | Import.
 * Configure the MongoDB nodes to point to your MongoDB
