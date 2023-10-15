@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "Path Ingestion"
-date: 2023-05-09 00:00:00 +0200
+date: 2023-10-15 00:00:00 +0200
 categories: [ACAP,Node-RED]
 ---
+
+tis is an extension flow for [Node-RED Installer ACAP](https://pandosme.github.io/acap/node-red/2023/09/12/nodered-acap.html) that stores object paths detected by the xame into a MongoDB.
 
 Object Paths can be use for a number of use cases.  The most common are:
 * Forensic search
@@ -11,7 +13,7 @@ Object Paths can be use for a number of use cases.  The most common are:
 * Dwell Heatmap
 * Counting
 
-It is all about getting the object path data into a database to allow other applications to query this database.  One option is to install [ObjectPath ACAP](https://pandosme.github.io/acap/2023/03/16/Objects.html) in the camera.  This solution requires an MQTT broker and middelware that can take the Path messga and store it in a database.  A perfectly good solution.  
+It is all about getting the object path data into a database to allow other applications to query this database.  One option is to install [ObjectPath ACAP](https://pandosme.github.io/acap/2023/03/16/Objects.html) in the camera.  This solution requires an MQTT broker and middleware that can take the Path messga and store it in a database.  A perfectly good solution.  
 However, if you need a more dynamic and mainataineable solution there is an alternative option.  Run eveything in Node-RED on the camera that will store the path data into a mongodb wihtout going through a MQTT and middlware.  This solution can replace the solution with [ObjectPath ACAP](https://pandosme.github.io/acap/2023/03/16/Objects.html).  
 Your application (whatever that may be) queires and process the data from the database.
 
