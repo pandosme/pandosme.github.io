@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Path Ingestion"
+title:  "Path Ingestion uning Node-RED Installer"
 date: 2023-10-15 00:00:00 +0200
 categories: [ACAP,Node-RED]
 ---
 
-tis is an extension flow for [Node-RED Installer ACAP](https://pandosme.github.io/acap/node-red/2023/09/12/nodered-acap.html) that stores object paths detected by the xame into a MongoDB.
+This is an extension flow for [Node-RED Installer ACAP](https://pandosme.github.io/acap/node-red/2023/09/12/nodered-acap.html) that stores object paths detected by the xame into a MongoDB.
 
 Object Paths can be use for a number of use cases.  The most common are:
 * Forensic search
