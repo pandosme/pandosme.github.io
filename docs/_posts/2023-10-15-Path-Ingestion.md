@@ -28,7 +28,7 @@ Assumed that have the prerequisite:
 * Deploy and go to the Node-RED Dashboard http://camera-ip:1880/ui
 
 ### Dashboard
-The dashboard is mainly for for configuration and validation.  The flow supports all cameras with fimrware 10.x and above, regardless of aspect ration and rotation.  The dashboard queries the visulize a flow heatmap. Use the settings to ignore unwanted detections.  
+The dashboard is mainly for for configuration and validation.  The flow supports all cameras with firmware 10.x and above, regardless of aspect ration and rotation.  The dashboard queries the visulize a flow heatmap. Use the settings to ignore unwanted detections.  
 ![dashboard](https://github.com/pandosme/EmbeddedFlows/raw/main/images/dashboard_path_heatmap.jpg)
 
 ### Flows
