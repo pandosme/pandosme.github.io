@@ -15,6 +15,8 @@ Object Paths can be use for a number of use cases.  The most common are:
 
 It is all about getting the object path data into a database to allow other applications to query.  The flow allow you to easily inject path data directly into a MongoDB. You can configure the behaviour to eliminate unwanted detections at the source.  The solution does not require any messaging to a middlware that injects the data into a MongoDB.  Your application (whatever that may be) may query and process the path data from the database.
 
+{% include youtube.html id="rkIBVKuKv84" %}
+
 ### Prerequisite
 * Axis Camera (use the latest firmware version for best result).
 * [Node-RED Installer ACAP](https://pandosme.github.io/acap/node-red/2023/09/12/nodered-acap.html).  _An SD Card may be required if the camera is not based on ARTPEC-8._
