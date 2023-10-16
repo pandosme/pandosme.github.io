@@ -25,7 +25,7 @@ It is all about getting the object path data into a database to allow other appl
 ### Installation
 Assumed that have the prerequisite:
 1. Import the [MongoDB Node](node-red-node-mongodb) into Node-RED via Menu | Manage Palette
-2. Copy the flow [Path Ingestion.json](https://github.com/pandosme/EmbeddedFlows/raw/main/flows/Path%20Ingestion.json) and import the flow via Menu | Import.
+2. Copy the flow [Path Ingestion.json](https://acap.juhlin.me/package/pathingestion) and import the flow via Menu | Import.
 3. Configure the MongoDB nodes to point to your MongoDB
 4. Deploy and go to the Node-RED Dashboard http://camera-ip:1880/ui
 
