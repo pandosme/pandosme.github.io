@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Path Data Ingestion (Object analytics ) for Node-RED installed in the camera"
+title:  "Path Data Ingestion (Object analytics ) for Node-RED installed on the camera"
 date: 2023-10-15 00:00:00 +0200
 categories: [ACAP,Node-RED]
 ---
