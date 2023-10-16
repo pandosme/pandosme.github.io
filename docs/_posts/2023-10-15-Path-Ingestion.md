@@ -24,10 +24,10 @@ It is all about getting the object path data into a database to allow other appl
 
 ### Installation
 Assumed that have the prerequisite:
-* Import the [MongoDB Node](node-red-node-mongodb) into Node-RED via Menu | Manage Palette
-* Copy the flow [Path Ingestion.json](https://github.com/pandosme/EmbeddedFlows/raw/main/flows/Path%20Ingestion.json) and import the flow via Menu | Import.
-* Configure the MongoDB nodes to point to your MongoDB
-* Deploy and go to the Node-RED Dashboard http://camera-ip:1880/ui
+1. Import the [MongoDB Node](node-red-node-mongodb) into Node-RED via Menu | Manage Palette
+2. Copy the flow [Path Ingestion.json](https://github.com/pandosme/EmbeddedFlows/raw/main/flows/Path%20Ingestion.json) and import the flow via Menu | Import.
+3. Configure the MongoDB nodes to point to your MongoDB
+4. Deploy and go to the Node-RED Dashboard http://camera-ip:1880/ui
 
 ### Dashboard
 The dashboard is mainly for for configuration and validation.  The flow supports all cameras with firmware 10.x and above, regardless of aspect ration and rotation.  The dashboard queries the visulize a flow heatmap. Use the settings to ignore unwanted detections.  
