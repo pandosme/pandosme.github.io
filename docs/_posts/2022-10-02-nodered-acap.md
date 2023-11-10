@@ -42,6 +42,13 @@ Pre-installed nodes:
 - node-red-contrib-bcrypt (to simplify NodeRED password hash generation.  Import the example "Securitng NodeRED" to add/set credentials)
 
 ## Installation
+If you install Node-RED on an SD Card (all models except those based on ARTPEC-8), you must enable files to be executed from SD Card.
+  - In the camera GUI, go to System | Plain config
+  - Under "Select group", select "storage"
+  - Find the property "Extra mount options" on the left and set the value: exec.
+  - Click "Save".
+  - Reboot the device
+  - Install the Node-RED Installer
 
 1. Install the appropriate EAP file based on the device platform.  
 2. Start the ACAP.  This initiate installation of NodeJS, NPM and the latest Node-RED version on the device from official Node-RED sources.  
