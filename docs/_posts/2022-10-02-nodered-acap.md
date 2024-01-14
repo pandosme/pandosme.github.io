@@ -77,3 +77,5 @@ It may take a couple of minutes before the upgrade is complete.
 Node-RED on an Axis device does not use the device's HTTP server nor the device's user authentication.   Anyone with access 
 to the Axis device may use a Browser to access Node-RED.  It is highly recommended that you add credentials.  Node-RED describes this on https://nodered.org/docs/user-guide/runtime/securing-node-red.  By importing the example flow "Securing NodeRED" provides a way to edit the settings.js file.
 
+<br/>
+![image](https://api.aintegration.team/image/nodered-acap)

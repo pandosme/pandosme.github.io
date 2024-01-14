@@ -46,3 +46,6 @@ A convenient way of adding user-defined timers.  An alternative way is to add th
 
 ## Geolocation
 Setting the cameras Geolocation makes it possible to trigger on Sun Noon.  It also enables a way to filter image capture between dawn-dusk or sunrise-sunset.
+
+<br/>
+![image](https://api.aintegration.team/image/timelapse)

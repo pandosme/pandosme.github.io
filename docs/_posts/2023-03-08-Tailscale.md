@@ -17,3 +17,5 @@ A better solution is a VPN connection to a VPN server.  However, setting up a VP
  \
 _Note that I am not sponsered or endorsed by Tailscale, just pointing out a good remote access solution._
 
+<br/>
+![image](https://api.aintegration.team/image/tailscale)

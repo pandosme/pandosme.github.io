@@ -30,3 +30,5 @@ cd image
 ```
 The SDK build environment container will be fetched on the first build and the source code will be compiled.  Once compiled, install the eap-file on your Axis device.  Once you got the sample ACAP running you can start experimenting and alter the source code under source.  You only need to to focus on main.c and html/index.html.  All files with CAPITOL letters are wrappers that hides the complex stuff.
 
+<br/>
+![image](https://api.aintegration.team/image/acap-development)

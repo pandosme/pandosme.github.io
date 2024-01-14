@@ -25,3 +25,7 @@ Features:
 ## [Installation instructions](https://acap.juhlin.me/package/timelapse-server)
 
 {% include youtube.html id="1AwLA3Yd9QU" %}
+
+  
+<br/>
+![image](https://api.aintegration.team/image/timelapse-server)

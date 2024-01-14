@@ -71,3 +71,6 @@ The table shows the last 15 detectsion including data that can be used to optimi
 ## Advanced
 Change rotation if the lines look rotated realted to video.
 If there are parts of the scenes that generates false detections that may impact counting negative, edit the detection or exclude area.
+
+<br/>
+![image](https://api.aintegration.team/image/direction-counter)

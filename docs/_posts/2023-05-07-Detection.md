@@ -15,3 +15,6 @@ There are several settings that lets you optimize detection and client integrati
 
 ### [Download Detection](https://acap.juhlin.me/package/detection)
 *Instructions for configuration and integration is in the README.md file inside the ZIP-file.*
+
+<br/>
+![image](https://api.aintegration.team/image/detection)

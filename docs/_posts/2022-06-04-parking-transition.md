@@ -96,3 +96,6 @@ axis/event/tns:axis/CameraApplicationPlatform/parking/Space1/$source/spaceID/Spa
 
 ## ONVIF Events
 For clients supporting ONVIF event stream, an event is fired on every transition.
+
+<br/>
+![image](https://api.aintegration.team/image/parking-transition)
