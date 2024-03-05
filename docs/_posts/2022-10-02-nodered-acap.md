@@ -29,9 +29,10 @@ Please read the help/documentation on each node for detailed information.  Impor
 
 ## Prerequisite
 - Axis camera
-- Mounted SD Card  
-_Not required for devices based on ARTPEC-8_
-- Node-RED Installer
+- Mounted SD Card
+- Enable execution on SD Card
+- Node-RED Installer ACAP
+- Internet connection during installation
 
 ### [Download Node-RED Installer](https://acap.juhlin.me/package/Nodered)
 Pre-installed nodes:
@@ -45,26 +46,27 @@ Pre-installed nodes:
 1. Install the appropriate EAP file based on the device platform.  
 
 IMPORTANT!
-If you install Node-RED on an SD Card (all models except those based on ARTPEC-8), you must enable files to be executed from SD Card.
+You must enable files to be executed from SD Card.
 - In the camera GUI, go to System | Plain config
 - Under "Select group", select "storage"
 - Find the property "Extra mount options" on the left and set the value: exec.
 - Click "Save".
-- Reboot the device
-- Install
+- Unmount and mount SD Card or reboot the device
+- Install Node-RED Installer
 
-2. Start the ACAP.  This initiate installation of NodeJS, NPM and the latest Node-RED version on the device from official Node-RED sources.  
+2. Start the ACAP.  This initiate installation of NodeJS, NPM and the latest Node-RED version on the device from official sources.  
 _Note: Installation may take up to 3-4 minutes_
 3. Use a browser and access Node-RED on http://device-IP-address:1880
 
 ## Updating Node-RED
-*Note that installing the ACAP twice on an ARTPEC-8 camera will do a scratch install and flows will be flushed.  When installing on a device that uses SD Card, flows will be maintained*
-
-The installer installs the latest Node-RED version.  It is als possible to update Node-RED.   You must use the device legacy interface.
-1. Navigate to "Apps"
-2. Click Node-RED icon
-3. Checkbox "Update to latest version"
-4. Click save.  
+You will typicall not need to upgrade the Node-RED Installer ACAP when new versions are published.  
+To update to a new version of Node-RED: 
+1. Navigate to "Apps" in the camera menu
+2. Stop Node-RED
+3. Click Node-RED icon or the three dots (depening on the camera firmware version)
+4. Checkbox "Update to latest version"
+5. Click save
+6. Start Node-RED
 It may take a couple of minutes before the upgrade is complete.
 
 ## Things to consider
@@ -74,8 +76,7 @@ It may take a couple of minutes before the upgrade is complete.
 * Selected packages imported from the Node-RED community may not work due to limitations in Axis device.
 
 ## Security recommendations
-Node-RED on an Axis device does not use the device's HTTP server nor the device's user authentication.   Anyone with access 
-to the Axis device may use a Browser to access Node-RED.  It is highly recommended that you add credentials.  Node-RED describes this on https://nodered.org/docs/user-guide/runtime/securing-node-red.  By importing the example flow "Securing NodeRED" provides a way to edit the settings.js file.
+Node-RED on an Axis device does not use the device's HTTP server nor the device's user authentication.   Anyone with access to the Axis device may use a Browser to access Node-RED.  It is highly recommended that you add credentials.  Node-RED describes this on https://nodered.org/docs/user-guide/runtime/securing-node-red.  By importing the example flow "Securing NodeRED" provides a way to edit the settings.js file.
 
 <br/>
 ![image](https://api.aintegration.team/image/nodered-acap)
