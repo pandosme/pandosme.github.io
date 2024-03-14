@@ -13,7 +13,7 @@ Rasberry Pi or similar.  This is the common way to deploy Node-RED.  There maybe
 specific solution with an Axis device and there are no other hosts available than the Axis device.  
 
 ## Axis specific nodes
-Do you need to have a custom service on the device targeting a specific system, api or service not supported in the device?  You can develop this service without using Axis ACAP SDK or be a software developer.  The Node-Red-Installer comes with pre-installed nodes that provides access to resources inside the device.  With these nodes you can create sophisticated logic and integration that was previously only doable with ACAP SDK.  
+Do you need to have a custom service on the device targeting a specific system, api or service not supported in the device?  You can develop this service without using Axis ACAP SDK that requires software embedded developer skills such as C, HTML, JavaScript and Linux.  There are pre-installed nodes to access common Axis device to resources.  With these nodes you can create sophisticated logic and integration that was previously only doable with ACAP SDK.  
 
 ![image]({{ site.url }}/assets/node-red-contrib-host.JPG)
 
