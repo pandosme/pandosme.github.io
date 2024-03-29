@@ -6,7 +6,7 @@ permalink: /downloads/
 
 |ACAP | Version| Updated | Highlights |
 |------------------------ |---------- |------------ |-------------------------- |
-|[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |3.8.1 |2023-12-12 | Support for Object attributes.  See README.md |
+|[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |4.0.0 |2024-03-29 | See README.md in package |
 |[Timelapse](https://acap.juhlin.me/package/timelapseme) |23.11.13 |2023-11-13 | Support for overlay and channels |
 |[Detection & Cropping](https://acap.juhlin.me/package/detection) |1.2.0 |2023-07-01 | Improved cropping |
 |[Presence Detection](https://acap.juhlin.me/package/presence) |2.1.0 |2023-05-08 | Behaviour update |
