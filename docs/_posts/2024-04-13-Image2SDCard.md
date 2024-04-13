@@ -2,7 +2,7 @@
 layout: post
 title:  "Capture Images to SD Card with API"
 date: 2023-04-13 00:00:00 +0200
-categories: [Security, ACAP]
+categories: [Node-RED]
 ---
 
 This Node-RED flows provides trigger image captured to and SD Card.  Any event can be used to trigger image captureing including inject timer, camera events, or external clients using API.  
