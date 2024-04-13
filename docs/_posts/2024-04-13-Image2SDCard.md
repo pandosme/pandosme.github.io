@@ -5,7 +5,7 @@ date: 2024-04-13 00:00:00 +0200
 categories: [Node-RED]
 ---
 
-This Node-RED flows provides trigger image captured to and SD Card.  Any event can be used to trigger image captureing including inject timer, camera events, or external clients using API.  
+This Node-RED flows provides trigger image captured to and SD Card.  Any event can be used to trigger image capturing including inject timer, camera events, or external clients using API.  
 The flow also provides API to list images and get/download selected image.  You can modify the flow to fit all your needs.
 
 ## Prerequisite 
