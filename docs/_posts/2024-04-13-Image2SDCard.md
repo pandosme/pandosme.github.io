@@ -5,8 +5,10 @@ date: 2024-04-13 00:00:00 +0200
 categories: [Node-RED]
 ---
 
-This Node-RED flows provides trigger image captured to and SD Card.  Any event can be used to trigger image capturing including inject timer, camera events, or external clients using API.  
-The flow also provides API to list images and get/download selected image.  You can modify the flow to fit all your needs.
+This Node-RED flows provides trigger image captured to and SD Card.  The flow is controlled by API and Dashboard.  Any event can be used to trigger image capturing including inject timer, camera events, or external clients using API.  
+The flow provides API to capature, list, and download and flush.  
+The flow provides a dashboard to view images and download.  
+You can modify the flow to fit all your needs.
 
 ## Prerequisite 
 1. Axis Camera with mounted SD Card
@@ -27,8 +29,10 @@ View the image in a browser.  Use the TIMESTAMP from list.
 ### http://camera:1880/download/TIMESTAMP
 Download the image as a file.  Use the TIMESTAMP from list.
 
+## Dashboard
+In a browser, go to http://CAMERA_ADDRESS:1880/ui
+
 ### Flow
 [SD Capture flow](https://acap.juhlin.me/package/image2sdcard)  
 <br/>
 ![flow]({{ site.url }}/assets/image2sdcard.jpg)
-
