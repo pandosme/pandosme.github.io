@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Capture Images to SD Card with API"
-date: 2023-04-13 00:00:00 +0200
+date: 2024-04-13 00:00:00 +0200
 categories: [Node-RED]
 ---
 
