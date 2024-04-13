@@ -10,6 +10,9 @@ This Node-RED flow running on an Axis Camare provides integration and usage for
 * Object detection data for visualization or detecting stationary objects
 * Object trackars for automation
 * Object path for forensic search, counting and heatmaps
+* Customized Que management
+* Customized Parking space transition
+* People counting (how many people or heads are in the scene)
 
 ## Prerequisite 
 1. Axis Camera with mounted SD Card
