@@ -19,7 +19,7 @@ The flow also provides API to list images and get/download selected image.  You 
 Provide a JSON array of timestamps when image was captured.  The timestamps are EPOCH UTC with millisecond resolution.
 
 ### http://camera:1880/capture
-For external HTTP clienbts to trigger image capturing
+For external HTTP clients to trigger image capturing
 
 ### http://camera:1880/image/TIMESTAMP
 View the image in a browser.  Use the TIMESTAMP from list.
