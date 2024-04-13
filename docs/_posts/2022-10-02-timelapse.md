@@ -6,7 +6,9 @@ categories: [ACAP]
 ---
 Using a network camera for creating timelapse videos is easy.  The most common use case is recording a construction site progress.  Other common use cases are monitor seasonal changes in your back yard or as a quick forensic search video when images are captured on motion detection rather them time.
 
-Note: An alternative solution is [Timelapse-Server](https://acap.juhlin.me/package/timelapse-server) for a system with multiple cameras. 
+Note:  
+One alternative solution is [Timelapse-Server](https://acap.juhlin.me/package/timelapse-server) for a system with multiple cameras. 
+Another solution for image capture is [Capture Images to SD Card with API ](https://pandosme.github.io/node-red/2024/04/12/Image2SDCard.html)
 
 ## [Download Timelapse ACAP](https://acap.juhlin.me/package/timelapseme)
 
