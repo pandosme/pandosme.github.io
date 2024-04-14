@@ -5,7 +5,7 @@ date: 2024-04-14 00:00:00 +0200
 categories: [Node-RED]
 ---
 
-For systems that rely on object detection analytics to be used for visual augmentation, automation or injected for database applications.
+For systems that needs object analytics detection/trackers/path to be used for visual augmentation, automation or injected for database applications.
 
 ## Typical use cases:
 * Detection
