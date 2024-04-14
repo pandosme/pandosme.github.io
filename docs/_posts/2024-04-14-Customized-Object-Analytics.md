@@ -9,11 +9,12 @@ For systems that needs object analytics detection/trackers/path to be used for v
 
 ## Typical use cases:
 * Detection
-* Presence counting
+* Presence
 * Forensic search
-* Direction counting
+* Counting
 * Flow heatmap
 * Dwell heatmap
+* Loitering
 * More...
 
 ## Prerequisite 
