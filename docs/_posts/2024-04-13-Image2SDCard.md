@@ -5,10 +5,7 @@ date: 2024-04-13 00:00:00 +0200
 categories: [Node-RED]
 ---
 
-This Node-RED flows provides trigger image captured to and SD Card.  The flow is controlled by API and Dashboard.  Any event can be used to trigger image capturing including inject timer, camera events, or external clients using API.  
-The flow provides API to capature, list, and download and flush.  
-The flow provides a dashboard to view images and download them.  
-You can modify the flow to fit all your needs.
+This Node-RED flow provides capturing images to SD Card and interfaces to view, list and download images.  It is possible to use any event to trigger image capturing.  You can modify the flow to fit all your needs.
 
 ## Prerequisite 
 1. Axis Camera with mounted SD Card
