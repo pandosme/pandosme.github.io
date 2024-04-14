@@ -21,7 +21,7 @@ For systems that needs object analytics detection/trackers/path to be used for v
 1. Axis Camera with mounted SD Card
 2. [Node-RED Installer](https://pandosme.github.io/acap/node-red/2023/09/12/nodered-acap.html)
 3. Import examples
-4. Modify, Add, Adjust to any logic or integrastion
+4. Modify, Add, Adjust to any logic or integration
 
 ### Demonstration video
 {% include youtube.html id="aroepFBi2II" %}
