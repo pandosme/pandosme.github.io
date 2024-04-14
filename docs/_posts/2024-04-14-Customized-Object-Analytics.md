@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Customized Object Analytics"
-date: 2024-04-15 00:00:00 +0200
+date: 2024-04-14 00:00:00 +0200
 categories: [Node-RED]
 ---
 
