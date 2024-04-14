@@ -22,5 +22,5 @@ For systems that rely on object detection analytics to be used for visual augmen
 3. Import examples
 4. Modify, Add, Adjust to any logic or integrastion
 
-### Example video
+### Demonstration video
 {% include youtube.html id="aroepFBi2II" %}
