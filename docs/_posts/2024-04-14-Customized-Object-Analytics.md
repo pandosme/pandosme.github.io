@@ -5,14 +5,16 @@ date: 2024-04-15 00:00:00 +0200
 categories: [Node-RED]
 ---
 
-For systems that rely on object detection analylics to be used in visual augmentation, automation or injected into a database.  
-This Node-RED flow running on an Axis Camare provides integration and usage for
-* Object detection data for visualization or detecting stationary objects
-* Object trackars for automation
-* Object path for forensic search, counting and heatmaps
-* Customized Que management
-* Customized Parking space transition
-* People counting (how many people or heads are in the scene)
+For systems that rely on object detection analytics to be used for visual augmentation, automation or injected for database applications.
+
+## Typical use cases:
+* Detection
+* Presence counting
+* Forensic search
+* Direction counting
+* Flow heatmap
+* Dwell heatmap
+* More...
 
 ## Prerequisite 
 1. Axis Camera with mounted SD Card
