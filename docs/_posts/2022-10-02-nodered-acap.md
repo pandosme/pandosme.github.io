@@ -62,7 +62,7 @@ _Note: Installation may take up to 3-4 minutes_
 * Is the exec-flag set and was the SD Card re-mounted or the device restarted afterwards?
 * Is the Axis device behind a proxy and the proxy-values not set?
 * Is the Axis device located on a protected network with no Internet Access?
-* Does the Axis device have a valid Default Eouter set? (Typically set by DHCP) 
+* Does the Axis device have a valid Default Router set? (Typically set by DHCP) 
 * Does the Axis device have a valid DNS Server?  (Typically set by DHCP)
  
 ## Updating Node-RED
