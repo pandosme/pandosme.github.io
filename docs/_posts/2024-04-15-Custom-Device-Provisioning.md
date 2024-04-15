@@ -19,7 +19,7 @@ When ADM5 or ADMx cannot be used as an Axis device provisioning tool, scripting 
 ## Usage
 1. As a starting template, import exampel flow [Menu | Import | Examples | node-red-subflow-axis-provisioning | Axis Device Provisioning ) into Note-RED
 2. Double-click "Adjust device configuration here" and edit the JSON data to your policy
-3. Double-click "Adjust Device Inventory here" and edit your device inventory.
+3. Double-click "Adjust Device Inventory here" and edit your device inventory.  
    _Note that you can youe a wide range of way to populate your inventory_
 4. Trigger the inject node "Initialize"
 5. Trigger the inject node "Provision"
