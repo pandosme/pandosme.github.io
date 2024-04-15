@@ -58,6 +58,13 @@ You must enable files to be executed from SD Card.
 _Note: Installation may take up to 3-4 minutes_
 3. Use a browser and access Node-RED on http://device-IP-address:1880
 
+## Troubleshooting installation problems
+* Is the exec-flag set and was the SD Card re-mounted or the device restarted afterwards?
+* Is the Axis device behind a proxy and the proxy-values not set?
+* Is the Axis device located on a protected network with no Internet Access?
+* Does the Axis device have a valid Default Eouter set? (Typically set by DHCP) 
+* Does the Axis device have a valid DNS Server?  (Typically set by DHCP)
+ 
 ## Updating Node-RED
 You will typicall not need to upgrade the Node-RED Installer ACAP when new versions are published.  
 To update to a new version of Node-RED: 
