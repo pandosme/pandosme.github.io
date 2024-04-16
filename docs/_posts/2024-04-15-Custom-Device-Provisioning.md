@@ -26,3 +26,6 @@ When ADM5 or ADMx cannot be used as an Axis device provisioning tool, scripting 
 
 ### Demonstration video
 {% include youtube.html id="38pktKDa_2M" %}
+
+<br/>
+![image](https://api.aintegration.team/image/provisioning)
