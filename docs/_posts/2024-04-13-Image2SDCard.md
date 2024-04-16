@@ -38,3 +38,6 @@ Removes all images
 [SD Capture flow](https://acap.juhlin.me/package/image2sdcard)  
 
 ![flow]({{ site.url }}/assets/image2sdcard.jpg)
+
+![image](https://api.aintegration.team/image/provisioning)
+
