@@ -26,3 +26,5 @@ For systems that needs object analytics detection/trackers/path to be used for v
 
 ### Demonstration video
 {% include youtube.html id="aroepFBi2II" %}
+
+![image](https://api.aintegration.team/image/custom-analytics)
