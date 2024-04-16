@@ -10,6 +10,6 @@ categories: [ACAP]
 
 ## [TFLITE ACAP Open Source Code Package](https://github.com/pandosme/TFLITE_1)
 
-<br/>
 ![image](https://api.aintegration.team/image/teachable-machine)
+
 
