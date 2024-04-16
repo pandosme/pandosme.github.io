@@ -36,5 +36,5 @@ Removes all images
 
 ### Flow
 [SD Capture flow](https://acap.juhlin.me/package/image2sdcard)  
-<br/>
+
 ![flow]({{ site.url }}/assets/image2sdcard.jpg)
