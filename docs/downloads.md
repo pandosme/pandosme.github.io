@@ -6,7 +6,7 @@ permalink: /downloads/
 
 |ACAP | Version| Updated | Highlights |
 |------------------------ |---------- |------------ |-------------------------- |
-|[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |4.0.0 |2024-03-29 | See README.md in package |
+|[Node-RED Installer](https://acap.juhlin.me/package/Nodered) |4.1.0 |2024-04-28 | Support for Radar Data (Axis D2110) |
 |[Timelapse](https://acap.juhlin.me/package/timelapseme) |23.11.13 |2023-11-13 | Support for overlay and channels |
 |[Detection & Cropping](https://acap.juhlin.me/package/detection) |1.2.0 |2023-07-01 | Improved cropping |
 |[Presence Detection](https://acap.juhlin.me/package/presence) |2.1.0 |2023-05-08 | Behaviour update |
