@@ -24,6 +24,5 @@ Data provided:
 ## Example Node-RED Flow
 Import the Example Flow as your starting point
 
-![image](https://api.aintegration.team/image/radar-analytics) 
-
 ![content](https://github.com/pandosme/pandosme.github.io/assets/10496549/9d9c8bf0-f0bd-4e8f-9798-d539b9e7b243)
+![image](https://api.aintegration.team/image/radar-analytics) 
