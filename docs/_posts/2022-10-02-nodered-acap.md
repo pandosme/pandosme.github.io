@@ -5,8 +5,7 @@ date: 2023-09-12 05:00:00 +0200
 categories: [ACAP, Node-RED]
 ---
 [Node-RED](https://nodered.org) is a programming tool for wiring together hardware devices, APIs and online services in new and interesting
-ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the
-palette that can be deployed to its runtime in a single-click. 
+ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click. 
 
 Node-RED is typically installed on a computer or server such as Linux, Windows, 
 Rasberry Pi or similar.  This is the common way to deploy Node-RED.  There maybe cases where Node-RED is needed for a 
@@ -59,7 +58,7 @@ _Note: Installation may take up to 3-4 minutes_
 3. Use a browser and access Node-RED on http://device-IP-address:1880
 
 ## Reading and Writing files on the SD Card
-Flows that need to store and read files (using the File Read & File Write nodes) on the SD Card should use the path starting with "sdcard".
+Flows that need to store and read files (using the File Read & File Write nodes) on the SD Card should use the path starting with "sdcard".  
 E.g. `sdcard/some/directory/file`
 
 ## Troubleshooting installation problems
@@ -70,8 +69,7 @@ E.g. `sdcard/some/directory/file`
 * Does the Axis device have a valid DNS Server?  (Typically set by DHCP)
  
 ## Updating Node-RED
-You will typicall not need to upgrade the Node-RED Installer ACAP when new versions are published.  
-To update to a new version of Node-RED: 
+You will typicall not need to upgrade the Node-RED Installer ACAP when new versions of Node-RED is available.  
 1. Navigate to "Apps" in the camera menu
 2. Stop Node-RED
 3. Click Node-RED icon or the three dots (depening on the camera firmware version)
