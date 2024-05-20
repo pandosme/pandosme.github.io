@@ -65,6 +65,10 @@ _Note: Installation may take up to 3-4 minutes_
 * Does the Axis device have a valid Default Router set? (Typically set by DHCP) 
 * Does the Axis device have a valid DNS Server?  (Typically set by DHCP)
  
+## Reading and Writing files from the SD Card
+Flows that need to store and read files (using the File Read & File Write nodes) on the SD Card should use the path starting with "sdcard".
+E.g. ´sdcard/some/directory/file´
+
 ## Updating Node-RED
 You will typicall not need to upgrade the Node-RED Installer ACAP when new versions are published.  
 To update to a new version of Node-RED: 
