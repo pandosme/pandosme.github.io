@@ -63,6 +63,7 @@ E.g. `sdcard/some/directory/file`
 
 ## Troubleshooting installation problems
 * Is the exec-flag set and was the SD Card re-mounted or the device restarted afterwards?
+* Is the SD Card formatted with ext4 (FAT32 will not work)?
 * Is the Axis device behind a proxy and the proxy-values not set?
 * Is the Axis device located on a protected network with no Internet Access?
 * Does the Axis device have a valid Default Router set? (Typically set by DHCP) 
