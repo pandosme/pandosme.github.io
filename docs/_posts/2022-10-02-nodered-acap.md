@@ -33,7 +33,7 @@ Please read the help/documentation on each node for detailed information.  Impor
 - Node-RED Installer ACAP
 - Internet connection during installation
 
-### [Download Node-RED Installer](https://acap.juhlin.me/package/Nodered)
+### [Download Node-RED Installer](https://www.dropbox.com/scl/fi/y5l64crciad3owm9rz56x/NodeRed-Installer.zip?rlkey=ncu7l5gm994rr3bo6nkyf1yz9&dl=1)
 Pre-installed nodes:
 - node-red-contrib-axis-host
 - node-red-contrib-axis-com
