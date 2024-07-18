@@ -8,7 +8,7 @@ For a system that needs a simple way of detecting when a parking space becomes f
 
 ![Parking-image]({{ site.url }}/assets/parking_transition.jpeg)
 
-## [Download Parking Transition](https://acap.juhlin.me/package/parking)
+## [Download Parking Transition](https://www.dropbox.com/s/gbkmcbvhm7jb6qr/Parking_Transition.zip?dl=1)
 
 # Prerequisite
 1. Axis camera 
