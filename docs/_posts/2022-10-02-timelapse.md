@@ -10,7 +10,7 @@ Note:
 One alternative solution is [Timelapse-Server](https://acap.juhlin.me/package/timelapse-server) for a system with multiple cameras. 
 Another solution for image capture is [Capture Images to SD Card with API ](https://pandosme.github.io/node-red/2024/04/12/Image2SDCard.html)
 
-## [Download Timelapse ACAP](https://acap.juhlin.me/package/timelapseme)
+## [Download Timelapse ACAP](https://www.dropbox.com/s/59p0hff457kebaa/TimelapseMe.zip?dl=1)
 
 ## Prerequisite
 1. Axis camera with a mounted SD Card
