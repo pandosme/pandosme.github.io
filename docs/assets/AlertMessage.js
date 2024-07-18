@@ -1,3 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-    alert("It is currently not possible to download ACAPs.  I am working on it.");
+    Swal.fire({
+        title: 'Sorry!',
+        text: 'Downloads do not work.  I am working on it.',
+        icon: 'alert',
+        confirmButtonText: 'OK'
+    });
 });
