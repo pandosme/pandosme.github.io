@@ -5,7 +5,7 @@ date: 2024-09-13 00:00:00 +0200
 categories: [ACAP]
 ---
 
-Using the [DetecX ACAP Package](https://github.com/pandosme/DetectX) and trainging on the [Hagrid Hand Gesture Dataset](https://github.com/hukenovs/hagrid) supporting 18 hand gesture, this ACAP can detect them all.
+Using the [DetecX ACAP Package](https://pandosme.github.io/acap/2024/09/04/Custom_Object_Detection_Models.html) and trainging on the [Hagrid Hand Gesture Dataset](https://github.com/hukenovs/hagrid) supporting 18 hand gesture, this ACAP can detect them all.
 This ACAP is still in Beta but works sufficiently well.
 
 *Note: This ACAP will only wotk on ARTPEC-8 Cameras*
