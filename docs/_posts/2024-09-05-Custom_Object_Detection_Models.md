@@ -10,3 +10,5 @@ If you have a labeld dataset, you can train a YOLO5 model, export it and create 
 
 Note that this will require time, effort and some skills.
 [DetecX ACAP Package](https://github.com/pandosme/DetectX)
+
+![image](https://api.aintegration.team/image/yolo5)
