@@ -12,9 +12,12 @@ This ACAP is still in Beta but works sufficiently well.
  
 [Download Beta 1](https://www.dropbox.com/scl/fi/92rsm7zkqxlaqvxlfq038/HandGestures.zip?rlkey=ukyzhemobwgncuw2zi47099f6&st=y1r6ictd&dl=1)
 
-Integrate by monitoring the events from camera or have the camera send MQTT on the event.
+Integrate by monitoring the events from camera or have the camera send MQTT on the event.  
+
+This ACAP is mainly for fun and inspiration.  I would love to hear what the uses cases may be and how to improve it.  
 
 ### Demonstration video
+Sorry if the ACAP will obscure the hand gestures but you can still see what I am doing in the window.
 {% include youtube.html id="GYcOC71_BoM" %}
 
 ![image](https://api.aintegration.team/image/hand)
