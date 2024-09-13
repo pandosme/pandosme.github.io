@@ -10,6 +10,8 @@ This ACAP is still in Beta but works sufficiently well.
  
 [Download Beta 1](https://www.dropbox.com/scl/fi/92rsm7zkqxlaqvxlfq038/HandGestures.zip?rlkey=ukyzhemobwgncuw2zi47099f6&st=y1r6ictd&dl=1)
 
+Integrate by monitoring the events from camera.
+
 ### Demonstration video
 {% include youtube.html id="GYcOC71_BoM" %}
 
