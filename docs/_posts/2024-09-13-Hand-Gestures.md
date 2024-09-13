@@ -10,7 +10,7 @@ This ACAP is still in Beta but works sufficiently well.
 
 *Note: This ACAP will only work on ARTPEC-8 Cameras*
  
-[Download Beta 1](https://www.dropbox.com/scl/fi/92rsm7zkqxlaqvxlfq038/HandGestures.zip?rlkey=ukyzhemobwgncuw2zi47099f6&st=y1r6ictd&dl=1)
+[Download DetectX-Hagrid Beta](https://www.dropbox.com/scl/fi/92rsm7zkqxlaqvxlfq038/HandGestures.zip?rlkey=ukyzhemobwgncuw2zi47099f6&st=y1r6ictd&dl=1)
 
 Integrate by monitoring the events from camera or have the camera send MQTT on the event.  
 
