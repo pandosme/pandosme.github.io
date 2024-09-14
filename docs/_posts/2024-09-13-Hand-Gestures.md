@@ -10,10 +10,10 @@ Using the [DetecX ACAP Package](https://pandosme.github.io/acap/2024/09/04/Custo
 ![image_url](https://github.com/hukenovs/hagrid/blob/master/images/gestures.jpg)
 
 ### Demonstration video
-Sorry if the ACAP will obscure the hand gestures but you can still see what I am doing in the window.
+Sorry if the ACAP will obscure the hand gestures but you can still see what I am doing in the window.  
 {% include youtube.html id="GYcOC71_BoM" %}
 
-## [Download ACAP](https://www.dropbox.com/scl/fi/92rsm7zkqxlaqvxlfq038/HandGestures.zip?rlkey=ukyzhemobwgncuw2zi47099f6&st=y1r6ictd&dl=1)
+### [Download ACAP](https://www.dropbox.com/scl/fi/92rsm7zkqxlaqvxlfq038/HandGestures.zip?rlkey=ukyzhemobwgncuw2zi47099f6&st=y1r6ictd&dl=1)
 
 _Note that the ACAP will be non-responsive the initial 15-20 seconds when it is loading the model into the camera._
 
