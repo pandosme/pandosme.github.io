@@ -7,7 +7,7 @@ categories: [ACAP]
 
 Using the [DetecX ACAP Package](https://pandosme.github.io/acap/2024/09/04/Custom_Object_Detection_Models.html) and trainging on the [Hagrid Hand Gesture Dataset](https://github.com/hukenovs/hagrid) supporting 18 hand gesture, this ACAP can detect them all. This ACAP is developed for fun and inspiration.  I would love to hear what the uses cases may be and how to improve it.  
 
-![image_url](https://github.com/hukenovs/hagrid/blob/master/images/gestures.jpg)
+![gestures](https://raw.githubusercontent.com/hukenovs/hagrid/master/images/gestures.jpg)
 
 ### Demonstration video
 Sorry if the ACAP will obscure the hand gestures but you can still see what I am doing in the window.  
