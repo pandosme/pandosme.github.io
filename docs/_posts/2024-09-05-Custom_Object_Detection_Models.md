@@ -44,10 +44,4 @@ Information about the ACAP and the Model.  The "Avg inference" is continously up
 You can use the cameras Event/Action to trigger various actions.  Look for "DetectX: State change".  The event includes a state and a label.  
 Instead of using Events/Actions it may be more useful and easier to configure MQTT publishing upon the event.  You MQTT client will get a payload with label and state.
 
-![image](https://api.aintegration.team/image/yolo)
-
-
-
-
-
 ![image](https://api.aintegration.team/image/yolo5)
