@@ -33,19 +33,18 @@ To get these images, enable SSH on the camera and use a SFTP client to grab them
 <br>
 The minimum event state controls how long the event for each detected label should be.  The event will stay high until X seconds passed from the last detection.
 
-![Detections](https://raw.githubusercontent.com/pandosme/DetectX/main/pictures/labels.png)
+![Detections](https://raw.githubusercontent.com/pandosme/DetectX/main/pictures/labels.png)  
 You can enable and disable labels if they cause false detections.
 
 ### About
-![Detections](https://raw.githubusercontent.com/pandosme/DetectX/main/pictures/about.png)
+![Detections](https://raw.githubusercontent.com/pandosme/DetectX/main/pictures/about.png)  
 Information about the ACAP and the Model.  The "Avg inference" is continously updated.  A value of e.g. 150 ms means that apprx 6-7 images are processed per second.
 
 ## Integrating with the ACAP
 You can use the cameras Event/Action to trigger various actions.  Look for "DetectX: State change".  The event includes a state and a label.  
 Instead of using Events/Actions it may be more useful and easier to configure MQTT publishing upon the event.  You MQTT client will get a payload with label and state.
 
-https://raw.githubusercontent.com/pandosme/DetectX/main/pictures/about.png
-
+![image](https://api.aintegration.team/image/yolo)
 
 
 
