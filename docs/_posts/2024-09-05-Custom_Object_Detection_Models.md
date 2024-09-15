@@ -8,8 +8,9 @@ categories: [ACAP]
 While Axis cameras offer robust built-in object detection analytics for common use cases, some scenarios require more specialized detection. This package allows you to leverage a trained YOLOv5 model on the camera itself, bypassing the need for server-based processing.
 If you have a labeld dataset, you can train a YOLO5 model, export it and create an ACAP to run it in the camera.
 
-Note that this will require time, effort and some skills.
-[DetecX ACAP Package](https://github.com/pandosme/DetectX)
+*Note that this will require time, effort and some skills.* 
+
+### [GitHub repository](https://github.com/pandosme/DetectX)
 <br>
 
 ## Running and configuring the ACAP
