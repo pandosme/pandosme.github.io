@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ACAP Compatibility"
-date: 2024-12-02 00:00:00 +0200
+date: 2024-12-01 00:00:00 +0200
 categories: [ACAP]
 ---
 Recent firmware updates for Axis cameras include significant changes that affect ACAP (AXIS Camera Application Platform) services. Please be aware of the following:
