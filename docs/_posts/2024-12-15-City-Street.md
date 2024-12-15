@@ -12,7 +12,7 @@ The model is trained the dataset https://universe.roboflow.com/simone-bernabe/sm
   
 ![escooter](https://raw.githubusercontent.com/pandosme/CityStreet/main/pictures/escooter.jpg)
 
-### [Download ACAP]([https://www.dropbox.com/scl/fi/92rsm7zkqxlaqvxlfq038/HandGestures.zip?rlkey=ukyzhemobwgncuw2zi47099f6&st=y1r6ictd&dl=1](https://www.dropbox.com/scl/fi/4b0kaslhzkkj2kiu4y14x/CityStreet.zip?rlkey=m4dzupb335l2c68rnjwe6fx1r&st=4rwm7foa&dl=1))   
+### [Download ACAP](https://www.dropbox.com/scl/fi/4b0kaslhzkkj2kiu4y14x/CityStreet.zip?rlkey=m4dzupb335l2c68rnjwe6fx1r&st=nl5t0azu&dl=1)   
   
 ### [GitHub Repository](https://github.com/pandosme/CityStreet)
 
