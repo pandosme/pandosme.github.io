@@ -3,7 +3,7 @@ layout: page
 title: Downloads
 permalink: /downloads/
 ---
-https://www.dropbox.com/scl/fi/4b0kaslhzkkj2kiu4y14x/CityStreet.zip?rlkey=m4dzupb335l2c68rnjwe6fx1r&st=nl5t0azu&dl=1
+
 |ACAP | Version| Updated | Highlights |
 |------------------------ |---------- |------------ |-------------------------- |
 |[City Street](https://www.dropbox.com/scl/fi/y5l64crciad3owm9rz56x/NodeRed-Installer.zip?rlkey=ncu7l5gm994rr3bo6nkyf1yz9&dl=1) |3.2.0 |2024-12-14 | New |
