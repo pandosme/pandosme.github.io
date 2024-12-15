@@ -21,4 +21,4 @@ Recent firmware updates for Axis cameras include significant changes that affect
 ## Recommendation
 Before updating your device firmware, verify that your critical ACAP applications are compatible with the new firmware version. If you rely on custom ACAP solutions, maintain your current firmware version until updated ACAP versions are available and tested.
 
-![image](https://api.aintegration.team/image/ppe)
+![image](https://api.aintegration.team/image/acap-compatibility)
