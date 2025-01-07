@@ -6,7 +6,8 @@ permalink: /downloads/
 
 |ACAP | Version| Updated | Highlights |
 |------------------------ |---------- |------------ |-------------------------- |
-|[City Street](https://www.dropbox.com/scl/fi/y5l64crciad3owm9rz56x/NodeRed-Installer.zip?rlkey=ncu7l5gm994rr3bo6nkyf1yz9&dl=1) |3.2.0 |2024-12-14 | New |
+|[Timelapse 2](https://www.dropbox.com/scl/fi/uik3zu8potr7rv7u2djyb/Timelapse2.zip?rlkey=ovo9g8sb6qwmbyzptkn6c9674&dl=1) |1.0.3 |2025-01-07 | New |
+|[City Street](https://www.dropbox.com/scl/fi/y5l64crciad3owm9rz56x/NodeRed-Installer.zip?rlkey=ncu7l5gm994rr3bo6nkyf1yz9&dl=1) |3.2.0 |2024-12-14 |  |
 |[Node-RED Installer](https://www.dropbox.com/scl/fi/y5l64crciad3owm9rz56x/NodeRed-Installer.zip?rlkey=ncu7l5gm994rr3bo6nkyf1yz9&dl=1) |4.1.1 |2024-04-29 | Support for Radar Data (Axis D2110) |
 |[Timelapse](https://www.dropbox.com/scl/fi/rn16ov9jcwf5yvycx2dg0/TimelapseMe.zip?rlkey=tp0nb7jgh459z7twyej095tlu&dl=1) |23.11.13 |2023-11-13 | Support for overlay and channels |
 |[Detection & Cropping](https://www.dropbox.com/s/r8znlaoa0vzgf7u/Detection.zip?dl=1) |1.2.0 |2023-07-01 | Improved cropping |
