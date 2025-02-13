@@ -22,7 +22,7 @@ Features:
 * Inspect frames in timelapse
 * Generate, play and download MP4 videos
 
-## [Installation instructions](https://acap.juhlin.me/package/timelapse-server)
+## [Installation instructions](https://github.com/pandosme/timelapse-server)
 
 {% include youtube.html id="1AwLA3Yd9QU" %}
 
