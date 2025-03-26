@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Custom Object Detection ACAP (Using YOLO5)"
+title:  "DetectX: Custom Object Detection ACAP using YOLO5"
 date: 2024-09-05 00:00:00 +0200
 categories: [ACAP]
 ---
