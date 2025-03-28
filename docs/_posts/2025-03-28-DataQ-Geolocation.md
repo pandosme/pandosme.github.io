@@ -18,7 +18,7 @@ DataQ has been enhanced with GeoLocation capabilities, enabling the extraction o
 This GeoLocation extension opens up new possibilities for:
 
 - **Object Tracking:** Monitor the real-world positions of detected objects.
-- **Path Analysis:** Create flow heatmaps and conduct dwell time analysis[4].
+- **Path Analysis:** Create flow heatmaps and conduct dwell time analysis.
 
 
 For more information and to download the latest version, visit the [DataQ GitHub repository](https://github.com/pandosme/DataQ).
