@@ -27,4 +27,4 @@ Features:
 {% include youtube.html id="1AwLA3Yd9QU" %}
 
   
-![image](https://api.aintegration.team/image/timelapse-server)
+![image](https://api.juhlin.me/image/timelapse-server)
