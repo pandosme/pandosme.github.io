@@ -24,4 +24,4 @@ This GeoLocation extension opens up new possibilities for:
 For more information and to download the latest version, visit the [DataQ GitHub repository](https://github.com/pandosme/DataQ).
 
 
-![image](https://api.aintegration.team/image/geospace)
+![image](https://api.juhlin.me/image/geospace)
