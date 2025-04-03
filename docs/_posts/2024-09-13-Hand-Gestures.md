@@ -19,5 +19,5 @@ _Note that the ACAP will be non-responsive the initial 15-20 seconds when it is 
 
 Integrate by monitoring the events from camera or have the camera send MQTT on the event.  
 
-
-![image](https://api.aintegration.team/image/hand)
+<br/>
+![image](https://api.juhlin.me/image/hand)
