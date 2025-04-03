@@ -15,5 +15,7 @@ The model is trained the dataset https://universe.roboflow.com/simone-bernabe/sm
 ### [Download ACAP](https://www.dropbox.com/scl/fi/4b0kaslhzkkj2kiu4y14x/CityStreet.zip?rlkey=m4dzupb335l2c68rnjwe6fx1r&st=nl5t0azu&dl=1)   
   
 ### [GitHub Repository](https://github.com/pandosme/CityStreet)
+<br/>
+![image](https://api.juhlin.me/image/citystreets)
 
 
