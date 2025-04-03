@@ -28,4 +28,4 @@ For systems that needs object analytics detection/trackers/path to be used for v
 4. Modify, Add, Adjust to any logic or integration
 
 
-![image](https://api.aintegration.team/image/custom-analytics)
+![image](https://api.juhlin.me/image/custom-analytics)
