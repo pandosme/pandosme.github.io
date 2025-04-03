@@ -39,5 +39,5 @@ Removes all images
 
 ![flow]({{ site.url }}/assets/image2sdcard.jpg)
 
-![image](https://api.aintegration.team/image/provisioning)
+![image](https://api.juhlin.me/image/imagesd)
 
