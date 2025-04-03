@@ -21,7 +21,6 @@ This GeoLocation extension opens up new possibilities for:
 - **Path Analysis:** Create flow heatmaps and conduct dwell time analysis.
 
 
-For more information and to download the latest version, visit the [DataQ GitHub repository](https://github.com/pandosme/DataQ).
-
+For more information and to download the latest version, visit the [DataQ GitHub repository](https://github.com/pandosme/DataQ).  
 
 ![image](https://api.juhlin.me/image/geospace)
