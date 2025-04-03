@@ -14,4 +14,9 @@ There are several settings that lets you optimize detection and client integrati
 {% include youtube.html id="97wFcbt8TIM" %}
 
 ### [Download Detection](https://www.dropbox.com/s/r8znlaoa0vzgf7u/Detection.zip?dl=1)
-*Instructions for configuration and integration is in the README.md file inside the ZIP-file.*
+*Instructions for configuration and integration is in the README.md file inside the ZIP-file.*  
+<br/>
+![image](https://api.juhlin.me/image/coco-cropping) 
+
+
+
