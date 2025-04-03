@@ -21,7 +21,7 @@ Integrate by monitoring the events from camera or have the camera send MQTT on t
 
 <br/>
 ![image](https://api.juhlin.me/image/hand)
-![image](https://api.juhlin.me/image/geospace)
+
 
 
 
