@@ -34,7 +34,6 @@ Based on [DetectX](https://github.com/pandosme/DetectX) with a model trained on 
 ***
 
 ## Application Overview
-*Note: Screenshots are based on DetectX COCO.  The functionality is the same.*  
 
 DetectX provides real-time detection and state data from network cameras directly to your systems. **Intended for system integrators**, all outputs are designed for machine-to-machine (M2M) workflows, with flexible configuration from a built-in web UI and standards-based output via MQTT, ONVIF, or HTTP.
 
@@ -55,6 +54,8 @@ Each menu item below describes both *user options* and *integration outputs*, ma
 Allows you to see object detections overlayed on the video, and to adjust detection parameters.<br>
 <img src="{{ site.url }}/assets/DetectX_Detections.jpeg" alt="Detections Page" width="500"/>
 <br>
+*Note: Screenshot is based on DetectX COCO version.*  <br>
+
 - **Adjust Confidence Threshold:**  
   Set the minimum confidence (0–100) for labeling a detection as valid.
 - **Set Area of Interest (AOI):**  
@@ -72,6 +73,7 @@ Allows you to see object detections overlayed on the video, and to adjust detect
 
 Here you configure the gateway between the camera and your backend system.
 <br><img src="{{ site.url }}/assets/DetectC_MQTT.jpg" alt="MQTT Page" width="500"/><br>
+
 - **Broker Address and Port:**  
   Specify the IP or hostname for your MQTT broker and port (default: 1883).
 - **Authentication:**  
@@ -89,6 +91,7 @@ Here you configure the gateway between the camera and your backend system.
 
 This section allows you to tailor detection and event signaling to your application:
 <br><img src="{{ site.url }}/assets/DetectX_Evenst_Labels.jpg" alt="Detection Export Page" width="500"/><br>
+*Note: Screenshot is based on DetectX COCO version.*  <br>
 
 - **Selectable Labels:**  
   Check or uncheck which object types (labels) are actively processed, reducing false positives or narrowing the scope (e.g., only cars and persons).
@@ -118,6 +121,7 @@ When downstream systems require not only detection data but *cropped images* for
 
 #### View the Latest Crops
 <br><img src="{{ site.url }}/assets/DetectX_crops.jpg" alt="Crops Gallery" width="600"/><br>
+*Note: Screenshots are based on DetectX COCO version.*  <br>
 - Opens a gallery of up to 10 most recent image crops, labeled by type and confidence.
 - Essential for quality assurance—check that crops are readable, in correct locations, and correspond to real detections.
 
@@ -125,6 +129,7 @@ When downstream systems require not only detection data but *cropped images* for
 
 ### 5. About
 <br><img src="{{ site.url }}/assets/DetectX_About.jpg" alt="About Page" width="480"/><br>
+*Note: Screenshot is based on DetectX COCO version.*  <br>
 
 A dashboard combining:
 - **Model Status:** Input size, inference time, DLPU backend, and status.
@@ -233,4 +238,5 @@ DetectX delivers three primary payload types, all enrichable with the configured
 
 <br/>
 ![image](https://api.juhlin.me/image/face)
+
 
