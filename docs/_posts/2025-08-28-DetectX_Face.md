@@ -72,7 +72,7 @@ Allows you to see object detections overlayed on the video, and to adjust detect
 ### 2. MQTT
 
 Here you configure the gateway between the camera and your backend system.
-<br><img src="{{ site.url }}/assets/DetectC_MQTT.jpg" alt="MQTT Page" width="500"/><br>
+<br><img src="{{ site.url }}/assets/DetectX_MQTT.jpg" alt="MQTT Page" width="500"/><br>
 
 - **Broker Address and Port:**  
   Specify the IP or hostname for your MQTT broker and port (default: 1883).
@@ -238,5 +238,6 @@ DetectX delivers three primary payload types, all enrichable with the configured
 
 <br/>
 ![image](https://api.juhlin.me/image/face)
+
 
 
