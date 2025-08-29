@@ -5,8 +5,16 @@ date: 2024-09-13 00:00:00 +0200
 categories: [ACAP]
 ---
 
-Using the [DetecX ACAP Package](https://pandosme.github.io/acap/2024/09/04/Custom_Object_Detection_Models.html) and trainging on the [Hagrid Hand Gesture Dataset](https://github.com/hukenovs/hagrid) supporting 18 hand gesture, this ACAP can detect them all. This ACAP is developed for fun and inspiration.  I would love to hear what the uses cases may be and how to improve it.  
+DetectX Hand Gesture is an ACAP to be installed in Axis Communications Cameras.  It provides real-time detection designed for users to communicate with a system using hand gestures.
+**Intended for system integrators**, all outputs are designed for machine-to-machine (M2M) workflows, with flexible configuration from a built-in web UI and standards-based output via MQTT, ONVIF, or HTTP.
 
+Examples of use cases are:
+* Healthcare:Patient/nurse communication. Greater accessibility and autonomy.
+* Retail: Customer satisfaction monitoring, customer asisstance needed, silent staff alert notifications.
+* Industry: Touchless machine control. Enhanced safety and efficiency.
+* Consumer/home: Smart home device management. Hands-free convenience.
+* Accessibility: Adaptive tech for disabilities. Inclusive interface design  
+ 
 ![gestures](https://raw.githubusercontent.com/hukenovs/hagrid/Hagrid_v1/images/gestures.jpg)
 
 ### Demonstration video
