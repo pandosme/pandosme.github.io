@@ -16,14 +16,20 @@ Based on [DetectX](https://github.com/pandosme/DetectX) with a model trained on 
 # DetectX Face User & Integration Guide
 
 ***
+## DetectX Face Model Overview
+**Dataset:** WIDER-FACE, optimized for detecting faces that are recognizable
+**Labels:**  
+- Face
 
-## DetectX Model Overview
+**Platform details:**  
+- **ARTPEC-8:**  
+  - Model input: **960**  
+  - Model size: **Small**
+- **ARTPEC-9:**  
+  - Model input: **1440**  
+  - Model size: **Medium**
 
-| **Variant**    | **Dataset** | **Labels**                   | **ARTPEC-8** | **ARTPEC-9** |
-|---------------------|-------------------|------------------------------------|------------------------------|--------------------------------|
-| DetectX Face   | WIDER-FACE | Face | Model input: **960**<br>Model size: **Small** | Model input: **1440**<br>Model size: **Medium** |
-
-*Note: ARTPEC-8 and ARTPEC-9 are Axis camera chipset platforms, with ARTPEC-9 offering enhanced performance and the ability to process larger images for improved detection quality.*
+*Note: ARTPEC-8 and ARTPEC-9 are Axis camera chipset platforms. ARTPEC-9 offers enhanced performance and supports larger model input sizes for improved detection quality.*
 
 ***
 
@@ -227,3 +233,4 @@ DetectX delivers three primary payload types, all enrichable with the configured
 
 <br/>
 ![image](https://api.juhlin.me/image/face)
+
