@@ -9,7 +9,7 @@ categories: [ACAP]
 
 Based on [DetectX](https://github.com/pandosme/DetectX) with a model trained on a custom version of WIDER-FACE dataset.
 
-### [Download DetectX Face](https://www.dropbox.com/scl/fi/4b0kaslhzkkj2kiu4y14x/CityStreet.zip?rlkey=m4dzupb335l2c68rnjwe6fx1r&st=nl5t0azu&dl=1)
+### [Download DetectX Face](https://www.dropbox.com/scl/fi/7ljva0sbcz8wmaw5fvv4w/DetectX_Face.zip?rlkey=ds4eyumfwsn656sc0nzbv95ly&dl=1)
 
 ***
 
@@ -20,7 +20,7 @@ Based on [DetectX](https://github.com/pandosme/DetectX) with a model trained on 
 ## DetectX Model Overview
 
 | **Variant**    | **Dataset** | **Labels**                   | **ARTPEC-8** | **ARTPEC-9** |
-|----------------|-------------|------------------------------|------------------------|--------------------------|
+|---------------------|-------------------|------------------------------------|------------------------------|--------------------------------|
 | DetectX Face   | WIDER-FACE | Face | Model input: **960**<br>Model size: **Small** | Model input: **1440**<br>Model size: **Medium** |
 
 *Note: ARTPEC-8 and ARTPEC-9 are Axis camera chipset platforms, with ARTPEC-9 offering enhanced performance and the ability to process larger images for improved detection quality.*
@@ -46,9 +46,9 @@ Each menu item below describes both *user options* and *integration outputs*, ma
 
 ### 1. Detections
 
-Allows you to see object detections overlayed on the video, and to adjust detection parameters.
+Allows you to see object detections overlayed on the video, and to adjust detection parameters.<br>
 <img src="{{ site.url }}/assets/DetectX_Detections.jpeg" alt="Detections Page" width="500"/>
-
+<br>
 - **Adjust Confidence Threshold:**  
   Set the minimum confidence (0–100) for labeling a detection as valid.
 - **Set Area of Interest (AOI):**  
@@ -65,9 +65,7 @@ Allows you to see object detections overlayed on the video, and to adjust detect
 ### 2. MQTT
 
 Here you configure the gateway between the camera and your backend system.
-
-<img src="{{ site.url }}/assets/DetectC_MQTT.jpg" alt="MQTT Page" width="500"/>
-
+<br><img src="{{ site.url }}/assets/DetectC_MQTT.jpg" alt="MQTT Page" width="500"/><br>
 - **Broker Address and Port:**  
   Specify the IP or hostname for your MQTT broker and port (default: 1883).
 - **Authentication:**  
@@ -84,8 +82,7 @@ Here you configure the gateway between the camera and your backend system.
 ### 3. Events/Labels
 
 This section allows you to tailor detection and event signaling to your application:
-
-<img src="{{ site.url }}/assets/DetectX_Evenst_Labels.jpg" alt="Detection Export Page" width="500"/>
+<br><img src="{{ site.url }}/assets/DetectX_Evenst_Labels.jpg" alt="Detection Export Page" width="500"/><br>
 
 - **Selectable Labels:**  
   Check or uncheck which object types (labels) are actively processed, reducing false positives or narrowing the scope (e.g., only cars and persons).
@@ -102,7 +99,7 @@ Each label produces an independent event state. Tuning event parameters is cruci
 
 When downstream systems require not only detection data but *cropped images* for each detection:
 
-<img src="{{ site.url }}/assets/DetectX_Detection-Export.jpg" alt="Detection Export Page" width="500"/>
+<br><img src="{{ site.url }}/assets/DetectX_Detection-Export.jpg" alt="Detection Export Page" width="500"/><br>
 
 - **Enable/Disable Detection Cropping**
 - **Set Border Adjustment:**  
@@ -114,15 +111,14 @@ When downstream systems require not only detection data but *cropped images* for
   Limit image frequency to reduce load or network traffic.
 
 #### View the Latest Crops
-<img src="{{ site.url }}/assets/DetectX_crops.jpg" alt="Crops Gallery" width="600"/>
+<br><img src="{{ site.url }}/assets/DetectX_crops.jpg" alt="Crops Gallery" width="600"/><br>
 - Opens a gallery of up to 10 most recent image crops, labeled by type and confidence.
 - Essential for quality assurance—check that crops are readable, in correct locations, and correspond to real detections.
 
 ***
 
 ### 5. About
-
-<img src="{{ site.url }}/assets/DetectX_About.jpg" alt="About Page" width="480"/>
+<br><img src="{{ site.url }}/assets/DetectX_About.jpg" alt="About Page" width="480"/><br>
 
 A dashboard combining:
 - **Model Status:** Input size, inference time, DLPU backend, and status.
@@ -231,7 +227,3 @@ DetectX delivers three primary payload types, all enrichable with the configured
 
 <br/>
 ![image](https://api.juhlin.me/image/face)
-
-
-
-
