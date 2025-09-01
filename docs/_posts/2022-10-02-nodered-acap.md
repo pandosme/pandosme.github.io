@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Running Node-RED on an Axis device"
+title:  "Node-RED Installer ACAP"
 date: 2023-09-12 05:00:00 +0200
 categories: [ACAP, Node-RED]
 ---
