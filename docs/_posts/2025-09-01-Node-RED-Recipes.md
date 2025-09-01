@@ -37,4 +37,4 @@ Check each recipe folder for a README and practical instructions. If you’re ne
 
 Feel free to explore, share, and suggest new automation ideas!
 
-[1](https://github.com/pandosme/node-red-recipes)
+![image](https://api.juhlin.me/image/node-red-recipes)
