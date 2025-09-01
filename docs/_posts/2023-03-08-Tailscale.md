@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Secure remote device access"
+title:  "Tailscale: Secure remote device access"
 date: 2023-03-08 00:00:00 +0200
 categories: [Security, ACAP]
 ---

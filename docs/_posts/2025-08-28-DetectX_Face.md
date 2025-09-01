@@ -233,9 +233,6 @@ DetectX delivers three primary payload types, all enrichable with the configured
 
 ***
 
-### 3.5.1	Aug 28, 2025
-- Initial version based on DetectX version 3.5.1
-
 <br/>
 ![image](https://api.juhlin.me/image/face)
 

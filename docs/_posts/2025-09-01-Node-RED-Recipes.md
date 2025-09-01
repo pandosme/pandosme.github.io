@@ -21,6 +21,9 @@ This page presents a curated library of practical **Node-RED flows (or “recipe
 - **[Export SD Recordings to Local MP4](https://github.com/pandosme/node-red-recipes/blob/main/recipes/export-SD-recordings-to-local-MP4/README.md)**  
   _Fetches video recordings from Axis camera SD cards, saves them to local disk, converts MKV to MP4 format, cleans up stored videos on the camera, and maintains a local JSON index for easy access._
 
+- **[Thermal Monitoring and Alarm Adjustment](recipes/thermal-monitoring/README.md)**  
+  _Node-RED dashboard for live video, tracking ambient temperature, and auto-adjusting alarm thresholds in Axis thermal cameras—a must for environments where alarm limits should follow ambient changes._
+
 ***
 
 ## About

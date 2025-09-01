@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hand Gesture Detection"
+title:  "DetectX: Hand Gesture Detection"
 date: 2024-09-13 00:00:00 +0200
 categories: [ACAP]
 ---
