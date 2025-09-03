@@ -7,7 +7,7 @@ categories: [ACAP]
 
 # DetectX Face
 
-ACAP based on [DetectX](https://github.com/pandosme/DetectX) with a object-detectio model trained on a custom version of WIDER-FACE dataset.
+ACAP based on [DetectX](https://github.com/pandosme/DetectX) with a object-detectio model trained on a custom version of WIDER-FACE dataset.<br>
 The ACAP detects faces and can send events or cropped image of the face to an HTTP service or MQTT client.  
 
 ### [Download DetectX Face](https://www.dropbox.com/scl/fi/7ljva0sbcz8wmaw5fvv4w/DetectX_Face.zip?rlkey=ds4eyumfwsn656sc0nzbv95ly&dl=1)
@@ -18,10 +18,9 @@ The ACAP detects faces and can send events or cropped image of the face to an HT
 
 ***
 ## DetectX Face Model Overview
-**Dataset:** WIDER-FACE, optimized for detecting faces that are recognizable<br>
+**Dataset:** WIDER-FACE, optimized for detecting faces that are recognizable  
 **Labels:**  
 - Face
-
 **Platform details:**  
 - **ARTPEC-8:**  
   - Model input: **960**  
