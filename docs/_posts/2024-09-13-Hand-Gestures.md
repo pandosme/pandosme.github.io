@@ -8,6 +8,8 @@ categories: [ACAP]
 DetectX Hand Gesture is an ACAP to be installed in Axis Communications Cameras.  It provides real-time detection designed for users to communicate with a system using hand gestures.
 **Intended for system integrators**, all outputs are designed for machine-to-machine (M2M) workflows, with flexible configuration from a built-in web UI and standards-based output via MQTT, ONVIF, or HTTP.
 
+The ACAP is based on the open-source ACAP [DetectX](https://pandosme.github.io/acap/2025/07/13/DetectX-Custom_Object_Detection.html) that enables running custom object detection models in Axis cameras.
+
 Examples of use cases are:
 * Healthcare:Patient/nurse communication. Greater accessibility and autonomy.
 * Retail: Customer satisfaction monitoring, customer asisstance needed, silent staff alert notifications.
