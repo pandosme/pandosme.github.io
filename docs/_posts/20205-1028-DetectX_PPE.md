@@ -13,6 +13,8 @@ This ACAP application builds on the [DetectX base model](https://github.com/pand
 
 The application detects faces and PPE items, sending either event notifications or cropped images to an HTTP endpoint or an MQTT broker.
 
+!Example](/.assets/ppe_demo.png)
+
 ### [Download DetectX PPE](Download PPE.zip)
 
 ---
