@@ -36,16 +36,6 @@ Each detection label can be individually toggled on or off:
 
 # User & Integration Guide
 
-## Camera Setup
-
-1. Mount the camera in a high, stable position, ensuring it clearly covers the operational area.  
-2. Refer to the camera’s user manual to configure hardware and image settings according to the environment.  
-3. Install **DetectX PPE** onto the camera using AXIS Device Manager or the camera’s web interface.  
-
----
-
-## Usage
-
 Refer to [DetectX: COCO](https://github.com/pandosme/DetectX) for usage and integration details.
 
 ---
