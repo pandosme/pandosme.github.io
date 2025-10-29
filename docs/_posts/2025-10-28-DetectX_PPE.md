@@ -52,9 +52,7 @@ Refer to [DetectX: COCO](https://github.com/pandosme/DetectX) for usage and inte
 
 ## Model Overview
 
-**Dataset:** WIDER-FACE (optimized for human face detection)  
-**Label:** Face  
-
+**Dataset:** Trained on a number of public PPE datasets 
 **Supported Platforms:**
 
 | Platform    | Model Input | Model Size |
