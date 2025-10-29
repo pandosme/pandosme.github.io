@@ -7,11 +7,13 @@ categories: [ACAP]
 
 # DetectX PPE
 
-DetectX PPE helps ensure compliance with personal protective equipment (PPE) requirements by detecting **helmets, masks, vests**, and identifying missing safety gear in high-risk environments.  
+DetectX PPE helps ensure compliance with personal protective equipment (PPE) requirements by detecting **hardhats, masks, vests**, and identifying missing safety gear in high-risk environments.  
+The main purpose is actually to detect when people are not wearing Hardhat, Vest or mask so the ACAP also detects **NO_ Hardhat, NO_Vest and NO_Mask**.
 
-This ACAP application builds on the [DetectX base model](https://github.com/pandosme/DetectX), trained on **20,000 images** across multiple scenarios and lighting conditions, using a custom object detection model derived from the **WIDER-FACE** dataset.  
 
-The application detects faces and PPE items, sending either event notifications or cropped images to an HTTP endpoint or an MQTT broker.
+This ACAP application builds on the [DetectX base model](https://github.com/pandosme/DetectX), trained on **25,000 images** across multiple scenarios and lighting conditions, using a custom object detection model derived from a number of public PPE Datasets.  
+
+On detection the ACAP will fire an event, send MQTT message with bounding boxes or send a cropped image of the detection to an HTTP endpoint or an MQTT broker.
 
 ![Example]({{ site.url }}/assets/ppe_demo.png)
 
@@ -43,14 +45,9 @@ Detection of each label can be individually toggled on or off:
 
 ---
 
-## Live Detection View
+## Usage
 
-The web interface provides live monitoring of detections, allowing quick validation of model behavior.  
-You can filter detections by:
-- Minimum/maximum detection size  
-- Included or excluded labels  
-
-For more details about the base framework, see [DetectX: COCO](https://github.com/pandosme/DetectX).
+Please read [DetectX: COCO](https://github.com/pandosme/DetectX) for usage and integration.
 
 ---
 
@@ -70,85 +67,4 @@ For more details about the base framework, see [DetectX: COCO](https://github.co
 *Note:* ARTPEC-9 offers enhanced inference performance and supports larger model inputs for improved accuracy.
 
 ---
-
-## Application Overview
-
-DetectX provides **real-time detection** and **state output** from Axis network cameras to external systems.  
-Designed for **system integrators**, all outputs are machine-readable with flexible configuration through its built-in web interface.  
-
-**Supported output protocols:**
-- MQTT  
-- HTTP  
-- ONVIF Events  
-
-**Typical use cases:**
-- Counting or verifying the presence of PPE in scenes  
-- Transmitting cropped face or PPE detections for downstream processing  
-
----
-
-## Integration
-
-### MQTT and HTTP
-DetectX PPE can send detection data and optional cropped images over **HTTP POST** or **MQTT**.  
-Messages include object label, confidence, timestamp, and (if configured) image data encoded in base64.
-
----
-
-### Event Label Configuration
-
-<img src="{{ site.url }}/assets/DetectX_Evenst_Labels.jpg" alt="Detection Export Page" width="500"/><br>
-*Note: Screenshot based on DetectX COCO version.*
-
-- **Selectable Labels:**  
-  Choose which labels generate events to reduce noise (e.g., only detect Mask and NO_Mask).  
-- **Event State Settings:**  
-  - *Prioritize:* Accuracy or response speed.  
-  - *Minimum Active Duration:* Defines how long a detection must persist before triggering.  
-
-> **Tip:**  
-> Each label functions independently. Adjust these settings carefully in busy or dynamic scenes.
-
----
-
-### Detection Export
-
-When your system requires cropped images per detection, use this section to configure export options.
-
-<img src="{{ site.url }}/assets/DetectX_Detection-Export.jpg" alt="Detection Export Page" width="500"/><br>
-
-- **Enable/Disable Cropping**  
-- **Border Adjustment:** Add or remove pixels around the detected region (e.g., 25 px margin).  
-- **Output Methods:**  
-  - **MQTT:** Base64 image payloads  
-  - **HTTP POST:** To user-defined endpoints  
-- **Throttle Output:** Limits transmission rate to reduce bandwidth load.
-
-#### View Latest Crops
-
-<img src="{{ site.url }}/assets/DetectX_crops.jpg" alt="Crops Gallery" width="600"/><br>
-*Displays up to 10 most recent cropped detections.*  
-Used for visual validation of bounding accuracy and image quality.
-
----
-
-### About Page
-
-<img src="{{ site.url }}/assets/DetectX_About.jpg" alt="About Page" width="480"/><br>
-*Note: Screenshot based on DetectX COCO version.*
-
-Contains combined system and model diagnostics:
-- **Model Status:** Input size, inference time, DLPU backend  
-- **Device Info:** Camera type, firmware, serial number, CPU & network usage  
-- **MQTT Broker:** Connection and topic status  
-- **Application Details:** Version, vendor, and support links  
-
-Use this page to verify installation or troubleshoot connection and inference issues.
-
----
-
-## Payload Examples
-
-DetectX delivers three primary payload formats enriched with metadata (camera name, location, serial):
-
-![image](https://api.juhlin.me/image/ppe
+![image](https://api.juhlin.me/image/ppe)
