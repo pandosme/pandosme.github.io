@@ -64,7 +64,8 @@ For more details about the base framework, see [DetectX: COCO](https://github.co
 | Platform  | Model Input | Model Size |
 |------------|-------------|-------------|
 | ARTPEC-8   | 960         | Small       |
-| ARTPEC-9   | 1440        | Medium      |
+| ARTPEC-9   | 1440        | Small      |
+| ARTPEC-9Plus   | 1440        | Medium      |
 
 *Note:* ARTPEC-9 offers enhanced inference performance and supports larger model inputs for improved accuracy.
 
