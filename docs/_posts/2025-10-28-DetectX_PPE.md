@@ -16,7 +16,7 @@ Upon detection, the ACAP can trigger an event, send an MQTT message with boundin
 
 ![Example]({{ site.url }}/assets/ppe_demo.png)
 
-### [Download DetectX PPE](Download%20PPE.zip)
+### [Download DetectX PPE](https://www.dropbox.com/scl/fi/4xepl6iq9bzifi5uuf68a/PPE.zip?rlkey=on4ckeqys327lfcdl58xoofwk&dl=1)
 
 ---
 
