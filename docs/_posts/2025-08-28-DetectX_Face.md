@@ -12,6 +12,7 @@ The ACAP detects faces and can send events or cropped image of the face to an HT
 
 ### [Download DetectX Face](https://www.dropbox.com/scl/fi/7ljva0sbcz8wmaw5fvv4w/DetectX_Face.zip?rlkey=ds4eyumfwsn656sc0nzbv95ly&dl=1)
 
+*Note that the start up time before the ACAP gets responsive may take up to 30-45 seconds (it is loading the model into the memory).*
 ***
 
 # DetectX Face User & Integration Guide
@@ -235,6 +236,7 @@ DetectX delivers three primary payload types, all enrichable with the configured
 
 <br/>
 ![image](https://api.juhlin.me/image/face)
+
 
 
 
