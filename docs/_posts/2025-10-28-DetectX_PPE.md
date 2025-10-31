@@ -18,8 +18,8 @@ Upon detection, the ACAP can trigger an event, send an MQTT message with boundin
 
 ### [Download DetectX PPE](https://www.dropbox.com/scl/fi/4xepl6iq9bzifi5uuf68a/PPE.zip?rlkey=on4ckeqys327lfcdl58xoofwk&dl=1)
 
+Note that the start up time before the ACAP gets responsive may take up to 30-55 (it is loading the model into the memory).
 ---
-
 ## Labels and Detections
 
 Each detection label can be individually toggled on or off:
