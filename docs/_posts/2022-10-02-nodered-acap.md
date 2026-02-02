@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Node-RED Installer ACAP"
+title: "Node-RED Installer ACAP"
 date: 2023-09-12 05:00:00 +0200
 categories: [ACAP, Node-RED]
+excerpt: "Install and run Node-RED directly on Axis cameras with pre-installed device nodes."
+image: /assets/node-red-contrib-host.JPG
 ---
 [Node-RED](https://nodered.org) is a programming tool for wiring together hardware devices, APIs and online services in new and interesting
 ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click. 

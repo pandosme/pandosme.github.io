@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Develop your own ACAP"
+title: "Develop Your Own ACAP"
 date: 2023-02-04 00:00:00 +0200
 categories: [ACAP]
+excerpt: "Get started developing custom ACAPs for Axis cameras with templates and examples."
 ---
 Do you want to develop your own service running in an Axis Camera?  ACAP stands for Axis Camera Application Platform.  It is similar to App development for a mobile phone but the difference is that while Apps are targeting users,  ACAP targets integrators. You find more information about ACAP on [Axis Developer Community](https://www.axis.com/developer-community/acap). 
 

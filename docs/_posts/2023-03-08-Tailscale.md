@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Tailscale: Secure remote device access"
+title: "Tailscale: Secure Remote Device Access"
 date: 2023-03-08 00:00:00 +0200
 categories: [Security, ACAP]
+excerpt: "Secure remote access to Axis cameras using Tailscale VPN without exposing ports."
 ---
 
 In cases when you need access to a remote device such as a camera, there are several ways to do this.  One way is to expose the camera to Internet with a public IP address, often by poking a hole in the firewall.  Not a recommended option.  People do this when they do not know better and underestimate the risk with Internet-facing devices (even with a strong password and using HTTPS).  

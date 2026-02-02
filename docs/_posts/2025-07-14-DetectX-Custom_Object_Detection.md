@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "DetectX: Custom Object Detection ACAP using YOLO5"
+title: "DetectX: Custom Object Detection ACAP using YOLO5"
 date: 2025-07-14 00:00:00 +0200
 categories: [ACAP]
+excerpt: "Train and deploy custom YOLOv5 object detection models directly on Axis cameras."
 ---
 
 While Axis cameras offer robust built-in object detection analytics for common use cases, some scenarios require more specialized detection. This package allows you to leverage a trained YOLOv5 model on the camera itself, bypassing the need for server-based processing.

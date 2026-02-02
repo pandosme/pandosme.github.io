@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Custom Device Provisioning"
+title: "Custom Device Provisioning"
 date: 2024-04-15 00:00:00 +0200
 categories: [Node-RED]
+excerpt: "Node-RED flow template for mass configuration and provisioning of Axis devices."
 ---
 
 When ADM5 or ADMx cannot be used as an Axis device provisioning tool, scripting is the best way to go.  This Node-RED flow provides a simple template solution for common case mass configurations.  It is easy to extend the template for non-common cases.
