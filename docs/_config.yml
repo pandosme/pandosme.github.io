@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Pandos
+title: Fred Juhlin
 email: fred.juhlin@gmail.com
 description: >-
   Custom integration and solutions for Axis cameras
