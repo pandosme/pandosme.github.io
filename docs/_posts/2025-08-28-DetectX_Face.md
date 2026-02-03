@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DetectX: Face Detection and Capturing"
+title: "Custom Face Detection and Capturing"
 date: 2025-08-28 00:00:00 +0200
 categories: [ACAP]
 excerpt: "Face detection and cropped image capture on Axis cameras using a custom WIDER-FACE model."

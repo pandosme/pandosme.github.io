@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "DetectX: PPE"
+title: "Custom PPE Detection"
 date: 2025-10-28 00:00:00 +0200
 categories: [ACAP]
-excerpt: "Detect hardhats, masks, and vests for PPE compliance on Axis cameras."
+excerpt: "Detect non hardhats, masks, and vests for PPE compliance on Axis cameras."
 image: /assets/ppe_demo.png
 ---
 

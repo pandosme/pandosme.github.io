@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DetectX: Custom Object Detection ACAP using YOLO5"
+title: "Custom Object Detection ACAP using YOLOv5"
 date: 2025-07-14 00:00:00 +0200
 categories: [ACAP]
 excerpt: "Train and deploy custom YOLOv5 object detection models directly on Axis cameras."

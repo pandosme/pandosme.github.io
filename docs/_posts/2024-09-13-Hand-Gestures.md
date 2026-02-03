@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DetectX: Hand Gesture Detection"
+title: "Hand Gesture Detection"
 date: 2024-09-13 00:00:00 +0200
 categories: [ACAP]
 excerpt: "Real-time hand gesture detection for touchless interaction using Axis cameras."
