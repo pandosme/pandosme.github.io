@@ -28,3 +28,4 @@ Ready to set it up? The complete guide includes installation steps, MQTT topics,
 **[Download ZIP file](https://www.dropbox.com/scl/fi/4h96dk67d2mi3d89rkfco/birds.zip?rlkey=gkm4svh02mhmi1ro14vm58ego&dl=1)**
 
 *Small sensors solving real problems—one detection at a time.*
+![image](https://api.juhlin.me/image/birds)
