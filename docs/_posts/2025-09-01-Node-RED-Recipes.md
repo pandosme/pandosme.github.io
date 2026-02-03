@@ -4,6 +4,7 @@ title: "Collection of Node-RED Recipes"
 date: 2025-09-01 00:00:00 +0200
 categories: [Node-RED]
 excerpt: "Curated library of practical Node-RED flows for Axis camera automation."
+image: /assets/node_red_recipes.png
 ---
 
 # Node-RED Recipes for Axis Cameras

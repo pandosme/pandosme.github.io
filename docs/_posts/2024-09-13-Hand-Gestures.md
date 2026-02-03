@@ -4,6 +4,7 @@ title: "DetectX: Hand Gesture Detection"
 date: 2024-09-13 00:00:00 +0200
 categories: [ACAP]
 excerpt: "Real-time hand gesture detection for touchless interaction using Axis cameras."
+image: /assets/hand_gestures.png
 ---
 
 DetectX Hand Gesture is an ACAP to be installed in Axis Communications Cameras.  It provides real-time detection designed for users to communicate with a system using hand gestures.
