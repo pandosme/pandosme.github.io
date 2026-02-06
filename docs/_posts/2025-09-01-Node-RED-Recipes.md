@@ -17,6 +17,9 @@ This page presents a curated library of practical **Node-RED flows (or “recipe
 
 ## 📋 Recipes
 
+- **[Secure Node-RED in Axis camera](https://github.com/pandosme/node-red-recipes/blob/main/recipes/securing-node-red-in-cameras/README.md)**  
+  _Secure Node-RED instances running on Axis cameras with an editable settings template and password hash generator. Solves the challenge of configuring authentication when the settings.js file isn't directly accessible._
+
 - **[Enable/Disable WDR on Sunrise/Sunset](https://github.com/pandosme/node-red-recipes/blob/main/recipes/sunrise-sunset/README.md)**  
   _Automatically turns Wide Dynamic Range (WDR) on at sunrise and off at sunset, ensuring optimal image quality throughout different lighting conditions._
 
