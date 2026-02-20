@@ -8,14 +8,8 @@ Quick updates and announcements.
 
 ---
 
-### February 6, 2026
-**DetectX Inference Hub Released** - Enable older Axis cameras use the Custom detection analytics by using a sibling ARTPEC-9 camera. [Read more](/acap/2026/02/06/inference-hub.html)
-
----
-
-### February 6, 2026
-**Added Secure Node-RED in Axis cameras** - A flow recipe the set user redentials on Node-RED in a camera. [Read more](https://github.com/pandosme/node-red-recipes/blob/main/recipes/securing-node-red-in-cameras/README.md)
-
+### February 20, 2026
+**SVG Overlay Released** - New ACAP that renders transparent SVG graphics on top of the live video stream, driven over HTTP or MQTT from any client. [Read more](/acap/2026/02/20/SVG-Overlay.html)
 
 ---
 
