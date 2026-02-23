@@ -29,11 +29,5 @@ You only need one Inference Hub in your network, but you can run the client on a
 - **Network dependency:** Clients need reliable connectivity to the hub; network latency adds to inference time.
 - **Throughput limits:** The hub can only process a few requests in parallel (default: 3); very large fleets may need multiple hubs.
 
-## Learn More
-
-For installation guides, API details, and advanced configuration, see:
-- [DetectX Inference Hub (Server) GitHub](https://github.com/pandosme/inference)
-- [DetectX Client GitHub](https://github.com/pandosme/detectx-client)
-
 With DetectX Inference Hub, you can modernize your entire camera fleet with custom AI—quickly, flexibly, and affordably.
 ![image](https://api.juhlin.me/image/hub)
