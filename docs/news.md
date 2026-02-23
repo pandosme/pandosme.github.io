@@ -8,6 +8,11 @@ Quick updates and announcements.
 
 ---
 
+### February 21, 2026
+**DataQ 3.0.0 Released** - New Advanced Settings features including Perspective Guard, Object Stitching, and Tracker Predictions for smoother, more accurate object tracking. [Read more](/acap/2025/01/18/DataQ.html)
+
+---
+
 ### February 20, 2026
 **SVG Overlay Released** - New ACAP that renders transparent SVG graphics on top of the live video stream, driven over HTTP or MQTT from any client. [Read more](/acap/2026/02/20/SVG-Overlay.html)
 
