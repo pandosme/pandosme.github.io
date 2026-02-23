@@ -10,6 +10,9 @@ image: /assets/svg.jpeg
 
 Sometimes the most useful camera feature is one that lets you add your own visual layer — a bounding box from a detection algorithm, a zone boundary, a text annotation, an arrow pointing to something specific. **SVG Overlay** is an ACAP that does exactly that: it renders a transparent SVG graphic directly on top of the live video stream, driven by any system that can send an HTTP request or publish an MQTT message.
 
+
+![Annoying Birds](/assets/svg-dashboard.png)
+
 **[Download pre-compiled ACAP](https://www.dropbox.com/scl/fi/166vlv8v03zorsohjya26/svg.zip?rlkey=xa49ygxirt5v70i5kl4ule9sz&dl=1)**
 
 ---
@@ -108,3 +111,4 @@ Download the ZIP, unpack it, and install the `.eap` for your camera architecture
 *Note: the overlay is visible in the live stream only — it does not appear in still image snapshots.*
 
 ![image](https://api.juhlin.me/image/svg)
+
