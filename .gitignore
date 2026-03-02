@@ -5,3 +5,5 @@ _site
 vendor
 files
 library
+local_gitpage.sh
+docs/.bundle
