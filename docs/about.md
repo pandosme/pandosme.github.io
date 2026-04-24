@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm Fred Juhlin, a passionat integrator with developer skills having a hobby of developing solutions, components and integration.
+I'm Fred Juhlin, a passionat integrator with developer skills having a hobby of developing solutions, components and integration.  I've have 30 years experiance working at Axis Communications, which gives me deep insight into the products and ecosystem — but everything published here is my own personal work and is neither supported nor endorsed by Axis.
 
 ## Open Source & Community
 
