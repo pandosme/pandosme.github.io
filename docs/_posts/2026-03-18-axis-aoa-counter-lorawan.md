@@ -8,8 +8,6 @@ image: /assets/ai-b100-banner.png
 
 Axis cameras running Axis Object Analytics can count people, vehicles, and other objects with high accuracy — but getting those counts out of a remote or network-constrained site has always been a friction point. This article shows how to bridge that gap using the **AI-B100 LoRaWAN Bridge** from AI Embedded Nordic and a dedicated ACAP, sending live counter data over LoRaWAN without any internet connection or cloud subscription.
 
-**[ACAP source code on GitHub](https://github.com/pandosme/AI-B100)**
-
 ---
 
 ## Why LoRaWAN?
@@ -39,17 +37,16 @@ For an Axis camera running Axis Object Analytics, the data payload is tiny: a ha
 | Axis camera (ACAP + AOA capable) | Edge inference and counting |
 | [AI-B100 LoRaWAN Bridge](https://ai-embedded.se/ai-b100/) | Bridges MQTT to LoRaWAN radio |
 | PoE Switch (e.g. Netgear GS305EPP) | Powers camera and provides LAN |
-| PoE Splitter (ETH + USB-C 5V) | Powers AI-B100 from PoE switch |
 | LoRaWAN gateway | Receives radio uplinks |
 
 ## Software Required
-- **[AI-B100 AOA Counter ACAP — source code on GitHub](https://github.com/pandosme/AI-B100)**
+**[AI-B100 AOA Counter ACAP — source code on GitHub](https://github.com/pandosme/AI-B100)**
 
 The **AI-B100 AOA Counter** ACAP runs on the Axis camera. It:
 
 1. Reads CrosslineCounting events from Axis Object Analytics
 2. Aggregates counts by object class (humans, cars, bikes, buses, trucks, other vehicles)
-3. Publishes compact binary payloads to the AI-B100 via MQTT on the local LAN
+3. Publishes compact binary payloads via AI-B100
 4. Respects LoRaWAN duty cycles through a configurable publish interval (minimum 10–15 minutes recommended)
 
 ![ACAP Counter Page](/assets/ai-b100-acap-counter.png)
