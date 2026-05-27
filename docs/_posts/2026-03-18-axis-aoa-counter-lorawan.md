@@ -26,7 +26,6 @@ For an Axis camera running Axis Object Analytics, the data payload is tiny: a ha
 - GDPR-compliant: only anonymized numeric counts leave the camera, never images
 - Works with any standard LoRaWAN network server (TTN, Chirpstack, private servers)
 - Long range — one gateway covers an entire building or outdoor area
-- Configurable publish intervals to respect LoRaWAN duty cycle limits
 
 ---
 
