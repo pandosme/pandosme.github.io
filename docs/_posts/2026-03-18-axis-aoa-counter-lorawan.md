@@ -8,8 +8,6 @@ image: /assets/ai-b100-banner.png
 
 Axis cameras running Axis Object Analytics can count people, vehicles, and other objects with high accuracy — but getting those counts out of a remote or network-constrained site has always been a friction point. This article shows how to bridge that gap using the **AI-B100 LoRaWAN Bridge** from AI Embedded Nordic and a dedicated ACAP, sending live counter data over LoRaWAN without any internet connection or cloud subscription.
 
-![System Overview](/assets/ai-b100-system-overview.png)
-
 **[ACAP source code on GitHub](https://github.com/pandosme/AI-B100)**
 
 ---
@@ -39,35 +37,13 @@ For an Axis camera running Axis Object Analytics, the data payload is tiny: a ha
 | Component | Purpose |
 |-----------|---------|
 | Axis camera (ACAP + AOA capable) | Edge inference and counting |
-| AI-B100 LoRaWAN Bridge | Bridges MQTT to LoRaWAN radio |
+| [AI-B100 LoRaWAN Bridge](https://ai-embedded.se/ai-b100/) | Bridges MQTT to LoRaWAN radio |
 | PoE Switch (e.g. Netgear GS305EPP) | Powers camera and provides LAN |
 | PoE Splitter (ETH + USB-C 5V) | Powers AI-B100 from PoE switch |
 | LoRaWAN gateway | Receives radio uplinks |
 
-![AI-B100 Bridge](/assets/ai-b100.png)
-
-The AI-B100 is an industrial-grade bridge from AI Embedded Nordic AB (Sweden). It connects via standard 10/100 Ethernet, runs on USB-C 5V power (or PoE via the AI-B100-POE variant), and supports LoRaWAN 1.0.4/1.1.0. It operates from -20°C to +85°C, making it suitable for outdoor enclosures.
-
-**Available variants:**
-
-| Model | Description |
-|-------|-------------|
-| AI-B100 | Standard, USB-C powered |
-| AI-B100-POE | Powered from PoE port |
-| AI-B100-ANT | Standard + external antenna connector |
-| AI-B100-POE-ANT | PoE + external antenna connector |
-
-![PoE Switch](/assets/ai-b100-poe-switch.png)
-
-A compact PoE switch such as the Netgear GS305EPP powers both the camera and, via a PoE splitter, the AI-B100.
-
-![PoE Splitter](/assets/ai-b100-poe-splitter.png)
-
-The PoE splitter converts the PoE output to RJ45 Ethernet and USB-C 5V, feeding directly into the AI-B100.
-
----
-
-## The ACAP: AI-B100 AOA Counter
+## Software Required
+- **[AI-B100 AOA Counter ACAP — source code on GitHub](https://github.com/pandosme/AI-B100)**
 
 The **AI-B100 AOA Counter** ACAP runs on the Axis camera. It:
 
