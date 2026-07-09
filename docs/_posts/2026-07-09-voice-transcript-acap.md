@@ -4,6 +4,7 @@ title: "Voice Command & Transcripts on Axis Devices"
 date: 2026-07-09
 categories: [ACAP]
 excerpt: "Continuous voice transcription on Axis cameras, turning keyword phrases into MQTT commands with no wakeword needed."
+image: /assets/voice-transcript.png
 ---
 
 **Voice Transcripts** is an ACAP that turns an Axis camera, a speaker, and a connectivity hub into a voice command and transcription input for other systems.
