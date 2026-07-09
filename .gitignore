@@ -7,3 +7,5 @@ files
 library
 local_gitpage.sh
 docs/.bundle
+AGENT.md
+
