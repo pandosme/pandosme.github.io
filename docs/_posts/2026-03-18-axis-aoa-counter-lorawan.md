@@ -10,6 +10,16 @@ Axis cameras running Axis Object Analytics can count people, vehicles, and other
 
 ---
 
+<iframe width="250" height="140" src="https://www.youtube.com/embed/EfR-Yydf51c" allow="fullscreen" allowfullscreen></iframe>
+
+
+## Get Started
+
+- **[AI-B100 AOA Counter ACAP — source code on GitHub](https://github.com/pandosme/AI-B100)**
+- **AI-B100 hardware** — contact [ai-b100@ai-embedded.se](mailto:ai-b100@ai-embedded.se) or visit [www.ai-embedded.se](https://www.ai-embedded.se)
+
+---
+
 ## Why LoRaWAN?
 
 **LoRa** (Long Range) is a radio modulation technology developed by Semtech. It uses a spread-spectrum technique to achieve remarkable range — several kilometres in open terrain, hundreds of metres in dense urban or indoor environments — while consuming very little power. A LoRa radio can run on a small battery for years.
@@ -119,9 +129,5 @@ Once uplinks arrive at your network server, a straightforward pipeline using Nod
 
 ---
 
-## Get Started
-
-- **[AI-B100 AOA Counter ACAP — source code on GitHub](https://github.com/pandosme/AI-B100)**
-- **AI-B100 hardware** — contact [ai-b100@ai-embedded.se](mailto:ai-b100@ai-embedded.se) or visit [www.ai-embedded.se](https://www.ai-embedded.se)
 
 ![image](https://api.juhlin.me/image/ai-b100-lora)
