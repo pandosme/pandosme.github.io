@@ -58,7 +58,6 @@ Not affiliated with Axis, ordered roughly by how active the account currently is
 
 - **[FixedIT.ai](https://github.com/fixedit-ai)** — Axis-ACAP-guides, fixedit-data-agent-examples, a YOLOv5 ACAP fork. Also runs a commercial edge runtime and is an Axis technology partner.
 - **[NovaltaLabs](https://github.com/NovaltaLabs)** — BirdNET-acap, bird audio classification running on the camera.
-- **everstra.com ([NFDiJee](https://github.com/NFDiJee))** — axis-stream-tools, a free streaming and overlay suite, now maintained at everstra.com.
 
 ---
 
